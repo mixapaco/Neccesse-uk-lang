@@ -407,26 +407,27 @@ bannerstand=Стійка для банеру
 musicplayer=Музичний програвач
 
 [logicgate]
-andgate=AND Gate
-nandgate=NAND Gate
-orgate=OR Gate
-norgate=NOR Gate
-xorgate=XOR Gate
-tflipflopgate=T flip-flop Gate
-srlatchgate=SR Latch Gate
-countergate=Counter Gate
-timergate=Timer Gate
-buffergate=Buffer Gate
-delaygate=Delay Gate
-sensorgate=Sensor Gate
-soundgate=Sound Gate
+andgate=AND елемент
+nandgate=NAND елемент
+orgate=OR елемент
+norgate=NOR елемент
+xorgate=XOR елемент
+tflipflopgate=T flip-flop елемент
+srlatchgate=SR Latch елемент
+countergate=Лічильник
+timergate=Таймер
+buffergate=Буфер
+delaygate=Затримка
+sensorgate=Датчик
+soundgate=Датчик звуку
 
 [logictooltips]
-logicinputs=Inputs: <value>
-logicoutputs=Outputs: <value>
-logicactive=Active
-logicinactive=Inactive
-bufferdelay=Delay: <value>
+logicinputs=Входи: <value>
+logicoutputs=Виходи: <value>
+logicactive=Активний
+logicinactive=Неактивний
+bufferdelay=Затримка: <value>
+// ???
 sensorplayeron=Detecting players
 sensorplayeroff=Not detecting players
 sensorhostileon=Detecting hostiles
@@ -2751,12 +2752,12 @@ toggleautodoor=Автоматичні двері
 anchortip=Закріпити
 
 // Containers
-elderheader=What can I help you with?
-elderquest=Settlement quest
-elderwantquest=I am looking for a quest
+elderheader=Чим я можу тобі допомогти?
+elderquest=Квест поселення
+elderwantquest=Шукаю квест
 elderquestintro=When you are done I will give you a reward!
 eldernoactive=If you place a settlement flag, I will find some quests for you!
-eldernoquest=I don't have any quests right now
+eldernoquest=Зараз у мене немає квестів
 eldernoaccess=If you join this settlements team, I will find some quests for you!
 elderacceptquest=Accept quest
 eldercompletequest=Complete quest
@@ -2814,8 +2815,8 @@ eldersettlementstip=Settlements are player made villages. To start one, craft a 
 demoniccrafting=Demonic crafting
 tpislandrange=Island range: <range>
 tpdestinations=Destinations
-traderwantbuy=I want to buy something
-traderwantsell=I want to sell something
+traderwantbuy=Я хочу щось купити
+traderwantsell=Я хочу щось продати
 settlermood=How are you feeling?
 settlerjoinme=Will you join my settlement?
 settlergoodbye=Goodbye
