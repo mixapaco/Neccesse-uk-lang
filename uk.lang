@@ -3309,24 +3309,24 @@ invtrash=Quick trash
 craftall=Craft all
 
 // Control tips
-interacttip=Interact
-usetip=Use
-opentip=Open
-closetip=Close
-activatetip=Activate
-edittip=Edit
-removetip=Remove
-cleartip=Clear
-harvesttip=Harvest
-talktip=Talk
+interacttip=Взаємодіяти
+usetip=Використати
+opentip=Відкрити
+closetip=Закрити
+activatetip=Активувати
+edittip=Редагувати
+removetip=Вилучити
+cleartip=Очистити
+harvesttip=Жатва
+talktip=Говорити
 mounttip=Mount
-addroptip=Add rope
-removeropetip=Remove rope
-feedtip=Feed
-sheartip=Shear
-milktip=Milk
-equiptip=Equip
-torchplacetip=Use [input=placetorch] to quick place
+addroptip=Прив'язати
+removeropetip=Відв'язати
+feedtip=Годувати
+sheartip=Стригти
+milktip=Доїти
+equiptip=Обладнати
+torchplacetip=Використати [input=placetorch] для швидкого встановлення
 
 [music]
 home=Home
