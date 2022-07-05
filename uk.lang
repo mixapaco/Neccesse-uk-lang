@@ -15,7 +15,7 @@
 [lang]
 localname=Українська
 engname=Ukrainian
-credits=By Andoru and mixapaco
+credits=By Andorunzo and mixapaco
 
 // Extra symbols that will be loaded in the font when using this language
 // The below is just an example of the english alphabet
@@ -102,7 +102,7 @@ blackberrysapling=Саджанець куща ожини
 
 // Work stations
 workstation=Верстак
-forge=Кузня
+forge=Плавильня
 carpentersbench=Столярний верстак
 ironanvil=Залізне ковадло
 demonicworkstation=Демонічний верстак
@@ -149,7 +149,7 @@ swampstonecolumn=Болотнокам'яна колона
 deepsandstonecolumn=Глибопісковикова колона
 
 // Inventories
-storagebox=Ящик
+storagebox=Скриня
 barrel=Бочка
 demonchest=Демонічна скриня
 
@@ -300,7 +300,7 @@ deepsandstonewalltrap=Глибопісковикова <пастка>
 arrowtrap=Пастка
 flametrap=Вогняна пастка
 voidtrap=Пустотна пастка
-tnt=TNT
+tnt=Динаміт
 fireworkdispenser=Викидач феєрверків
 
 // Food
@@ -323,9 +323,9 @@ coffeebeans=Кавові зерна
 sunflowerseed=Насіння соняшника
 wildsunflower=Дикий соняшник
 sunflower=Соняшник
-firemoneseed=Насіння вогнерози
-wildfiremone=Дика вогнероза
-firemone=Вогнероза
+firemoneseed=Насіння полум'янди
+wildfiremone=Дика полум'янда
+firemone=Полум'янда
 iceblossomseed=Насіння льодоцвіту
 wildiceblossom=Дикий льодоцвіт
 iceblossom=Льодоцвіт
