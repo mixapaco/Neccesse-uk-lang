@@ -17,11 +17,8 @@ localname=Українська
 engname=Ukrainian
 credits=By Andorunzo and mixapaco
 
-<<<<<<< HEAD
 
-=======
-// Extra symbols that will be loaded in the font when using this language test
->>>>>>> 8e49a1682d2cebb51b3934aeb28233cf7862d7e5
+// Extra symbols that will be loaded in the font when using this language
 // The below is just an example of the english alphabet
 extrasymbols=АаБбВвГгҐґДдЕеЄєЖжЗзИиІіЇїЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЬьЮюЯя'
 
