@@ -17,7 +17,6 @@ localname=Українська
 engname=Ukrainian
 credits=By Andorunzo and mixapaco
 
-
 // Extra symbols that will be loaded in the font when using this language
 // The below is just an example of the english alphabet
 extrasymbols=АаБбВвГгҐґДдЕеЄєЖжЗзИиІіЇїЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЬьЮюЯя'
@@ -287,16 +286,16 @@ dungeonpressureplate=Підземельна натискна плита
 deepstonepressureplate=Глибокам'яна натискна плита
 rocklever=Кам'яний важіль
 ledpanel=Світлодіодна панель
-woodwalltrap=Дерев'яна <пастка>
-stonewalltrap=Кам'яна <пастка>
-sandstonewalltrap=Пісковикова <пастка>
-swampstonewalltrap=Болотнокам'яна <пастка>
-snowstonewalltrap=Снігокамінь <пастка>
-icewalltrap=Льодяна <пастка>
-deepstonewalltrap=Глибокам'яна <пастка>
-obsidianwalltrap=Обсидіанова <пастка>
-dungeonwalltrap=Підземельна <пастка>
-deepsandstonewalltrap=Глибопісковикова <пастка>
+woodwalltrap=Дерев'яна <trap>
+stonewalltrap=Кам'яна <trap>
+sandstonewalltrap=Пісковикова <trap>
+swampstonewalltrap=Болотнокам'яна <trap>
+snowstonewalltrap=Снігокамінь <trap>
+icewalltrap=Льодяна <trap>
+deepstonewalltrap=Глибокам'яна <trap>
+obsidianwalltrap=Обсидіанова <trap>
+dungeonwalltrap=Підземельна <trap>
+deepsandstonewalltrap=Глибопісковикова <trap>
 // rev
 arrowtrap=Пастка
 flametrap=Вогняна пастка
