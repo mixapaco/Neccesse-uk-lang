@@ -62,10 +62,10 @@ deeprocktile=Глибокамінь
 deepstonefloor=Глибокам'яна підлога
 deepstonebrickfloor=Підлога із глибокам'яної цегли
 deepstonetiledfloor=Підлога із глибокам'яної плитки
-deepsnowrocktile=Глибоснігокамінь
+deepsnowrocktile=Сніговий глибокамінь
 deepicetile=Глиболід
 sandgraveltile=Піщаний гравій
-spidernesttile=Гніздо павука
+spidernesttile=Павуче гніздо
 cryptash=Склеповий попіл
 deepsandstonetile=Глибопісковик
 strawtile=Солома
@@ -339,14 +339,14 @@ caveglow=Печерносяйво
 // Processing
 campfire=Багаття
 cookingpot=Кастрюля
-roastingstation=Станція обсмажування
-cookingstation=Кулінарна станція
+roastingstation=Рожен
+cookingstation=Кухонна плита
 compostbin=Корзина для компосту
 grainmill=Млин для зерна
 cheesepress=Прес для сиру
 feedingtrough=Годівниця
 
-// Rocks - unobtainable !!!
+// Rocks - unobtainable ???
 surfacerock=Surface Rock
 sandsurfacerock=Sand Surface Rock
 surfacerocksmall=Surface Rock Small
@@ -354,54 +354,57 @@ sandsurfacerocksmall=Sand Surface Rock Small
 
 rock=Камінь
 sandstonerock=Пісковик
-swamprock=Swamp Rock
-snowrock=Snow Rock
-deeprock=Deep Rock
-deepsnowrock=Deep Snow Rock
-deepsandstonerock=Deep Sandstone Rock
+swamprock=Болотнокамінь
+snowrock=Снігокамінь
+deeprock=Глибокамінь
+deepsnowrock=Сніговий глибокамінь
+deepsandstonerock=Пісковинний глибокамінь
 
-clayrock=Clay rock
-obsidianrock=Obsidian rock
+clayrock=Глина
+obsidianrock=Обсидіан
 
-ironore=Iron Ore
-copperore=Copper Ore
-goldore=Gold Ore
-frostshardore=Frost Shard
-ivyore=Ivy Ore
-quartzore=Quartz
-tungstenore=Tungsten Ore
-lifequartzore=Life Quartz
-glacialore=Glacial Ore
-ancientfossilore=Ancient Fossil Ore
+ironore=Залізна руда
+copperore=Мідна руда
+goldore=Золота руда
+frostshardore=Морозний осколок
+ivyore=Плющева руда
+quartzore=Кварц
+tungstenore=Вольфрамова руда
+// ???
+lifequartzore=Кварц життя 
+glacialore=Льодовикова руда
+ancientfossilore=Стародавня скам'яніла руда
 
 // Misc
-grass=Grass
-swampgrass=Swamp Grass
-cattail=Cattail
-watergrass=Water Grass
-snowpile=Snow Pile
-cobweb=Cobweb
-thorns=Thorns
-ladderdown=Ladder Down
-ladderup=Ladder Up
-dungeonentrance=Dungeon Entrance
-dungeonexit=Dungeon Exit
+grass=Трава
+swampgrass=Болотна трава
+cattail=Рогіз
+watergrass=Водорослі
+snowpile=Снігова купа
+cobweb=Павутина
+thorns=Шипи
+ladderdown=Спуститись
+ladderup=Піднятись
+dungeonentrance=Вхід у підземелля
+dungeonexit=Вихід із підземелля
+// ???
 deepladderdown=Deep Ladder Down
 deepladderup=Deep Ladder Up
-templeentrance=Temple Entrance
-templeexit=Temple Exit
-coinstack=Coin Stack
-crate=Crate
-snowcrate=Snow Crate
-swampcrate=Swamp Crate
-vase=Vase
-ancienttotem=Ancient Totem
-templepedestal=Temple Pedestal
-settlementflag=Settlement Flag
+templeentrance=Вхід до храму
+templeexit=Вихід з храму
+coinstack=Купа копійок
+crate=Ящик
+snowcrate=Сніговий ящик
+swampcrate=Болотний ящик
+vase=Ваза
+ancienttotem=Стародавній тотем
+templepedestal=Храмовий постамент
+settlementflag=Прапор поселення
+// ???
 homestone=Homestone
 waystone=Waystone
-bannerstand=Banner Stand
-musicplayer=Music Player
+bannerstand=Стійка для банеру
+musicplayer=Музичний програвач
 
 [logicgate]
 andgate=AND Gate
