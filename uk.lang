@@ -1,4 +1,4 @@
-// Official english translations
+// Ukrainian translations
 // Every language must have lang.localname and lang.engname to be loaded.
 // File must be saved with UTF-8 encoding.
 
@@ -16,10 +16,10 @@
 localname=Українська
 engname=Ukrainian
 credits=By Andorunzo and mixapaco
-`
+
 // Extra symbols that will be loaded in the font when using this language
 // The below is just an example of the english alphabet
-extrasymbols=АаБбВвГгҐґДдЕеЄєЖжЗзИиІіЇїЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЬьЮюЯя'
+extrasymbols=АаБбВвГгҐґДдЕеЄєЖжЗзИиІіЇїЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЬьЮюЯя
 
 [tile]
 unknowntile=Невідомий
@@ -580,7 +580,6 @@ ironsword=Залізний меч
 goldsword=Золотий меч
 frostsword=Морозний меч
 nunchucks=Нунчаки
-// ???
 heavyhammer=Важкий молот
 lightninghammer=Громовий молот
 demonicsword=Демонічний меч
@@ -601,8 +600,7 @@ frostspear=Морозний спис
 demonicspear=Демонічний спис
 voidspear=Пустотний спис
 ivyspear=Плющевий спис
-// ???
-vulturestalon=Vultures Talon
+vulturestalon=Кіготь стерв'ятника
 tungstenspear=Вольфрамовий спис
 cryospear=Заморожений спис
 
@@ -612,7 +610,7 @@ frostglaive=Морозна глефа
 quartzglaive=Кварцова глефа
 cryoglaive=Заморожена глефа
 
-// Bows ???
+// Bows
 woodbow=Дерев'яний лук
 copperbow=Мідний лук
 ironbow=Залізний лук
@@ -620,58 +618,59 @@ goldbow=Золотий лук
 frostbow=Морозний лук
 demonicbow=Демонічний лук
 ivybow=Плющевий лук
-vulturesburst=Vultures Burst
+vulturesburst=Шквал
 tungstenbow=Вольфрамовий лук
 glacialbow=Крижаний лук
-bowofdualism=Bow of Dualism
+bowofdualism=Лук Двоїстості
 antiquebow=Стародавній лук
 
-// Arrows ???
+// Arrows
 stonearrow=Кам'яна стріла
 firearrow=Вогняна стріла
 poisonarrow=Отруйна стріла
-bouncingarrow=Bouncing Arrow
+bouncingarrow=Рикошетна стріла
 ironarrow=Залізна стріла
 bonearrow=Кістяна стріла
 
 // Guns ???
 handgun=Пістолет
-webbedgun=Webbed Gun
+webbedgun=Павутинний пістолет
 sniperrifle=Снайперська гвинтівка
 machinegun=Кулемет
 shotgun=Дробовик
 flintlock=Пістоль
 handcannon=Ручна гармата
-deathripper=Death Ripper
-cryoblaster=Cryo Blaster
+// ??? deathripper=Різник смерті
+deathripper=Вісник смерті
+cryoblaster=Заморожений бластер
 antiquerifle=Стародавня гвинтівка
 
-// Bullets ???
-simplebullet=Simple Bullet
-bouncingbullet=Bouncing Bullet
-voidbullet=Void Bullet
-cannonball=Cannonball
+// Bullets
+simplebullet=Куля
+bouncingbullet=Рикошетна куля
+voidbullet=Пустотна куля
+cannonball=Гарматне ядро
 
 // Magic weapons
-bloodbolt=Blood Bolt
-bloodvolley=Blood Volley
-froststaff=Frost Staff
-voidstaff=Void Staff
-voidmissile=Void Missile
-swamptome=Swamp Tome
-genielamp=Genie Lamp
-woodstaff=Wood Staff
-venomstaff=Venom Staff
-dredgingstaff=Dredging Staff
-boulderstaff=Boulder Staff
-quartzstaff=Quartz Staff
-elderlywand=Elderly Wand
-shadowbolt=Shadow Bolt
-iciclestaff=Icicle Staff
-shadowbeam=Shadow Beam
-cryoquake=Cryo Quake
-ancientdredgingstaff=Ancient Dredging Staff
-dragonlance=Dragon Lance
+bloodbolt=Кривава стріла
+bloodvolley=Кривавий залп
+froststaff=Морозний посох
+voidstaff=Пустотний посох
+voidmissile=Пустотний снаряд
+swamptome=Болотний фоліант
+genielamp=Лампа Джина
+woodstaff=Дерев'яний посох
+venomstaff=Отруйний посох
+dredgingstaff=Просікач
+boulderstaff=Грудомаха
+quartzstaff=Кварцовий посох
+elderlywand=Бузинова паличка
+shadowbolt=Тіньова стріла
+iciclestaff=Бурулька
+shadowbeam=Тіньовий промінь
+cryoquake=Криголам
+ancientdredgingstaff=Стародавній Просікач
+dragonlance=Спис дракона
 
 // Throw weapons
 ninjastar=Ninja Star
