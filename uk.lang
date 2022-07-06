@@ -508,6 +508,7 @@ mackerel=Скумбрія
 salmon=Лосось
 trout=Форель
 tuna=Тунець
+// ???
 gobfish=Gobfish
 terrorfish=Terrorfish
 halffish=Halffish
@@ -515,135 +516,137 @@ rockfish=Rockfish
 furfish=Furfish
 icefish=Icefish
 swampfish=Swampfish
-mapfragment=Map Fragment
-spareboatparts=Spare Boat Parts
-brokencoppertool=Broken Copper Tool
-brokenirontool=Broken Iron Tool
+mapfragment=Фрагмент карти
+spareboatparts=Запасні частини до човна
+brokencoppertool=Зламаний мідний інструмент
+brokenirontool=Зламаний залізний інструмент
 
 // Pickaxes
-woodpickaxe=Wood Pickaxe
-copperpickaxe=Copper Pickaxe
-ironpickaxe=Iron Pickaxe
-goldpickaxe=Gold Pickaxe
-frostpickaxe=Frost Pickaxe
-demonicpickaxe=Demonic Pickaxe
-ivypickaxe=Ivy Pickaxe
-tungstenpickaxe=Tungsten Pickaxe
-icepickaxe=Ice Pickaxe
+woodpickaxe=Дерев'яне кайло
+copperpickaxe=Мідне кайло
+ironpickaxe=Залізне кайло
+goldpickaxe=Золоте кайло
+frostpickaxe=Морозне кайло
+demonicpickaxe=Демонічне кайло
+ivypickaxe=Плющеве кайло
+tungstenpickaxe=Вольфрамове кайло
+icepickaxe=Льодяне кайло
 
 // Axes
-woodaxe=Wood Axe
-copperaxe=Copper Axe
-ironaxe=Iron Axe
-goldaxe=Gold Axe
-frostaxe=Frost Axe
-demonicaxe=Demonic Axe
-ivyaxe=Ivy Axe
-tungstenaxe=Tungsten Axe
+woodaxe=Дерев'яна сокира
+copperaxe=Мідна сокира
+ironaxe=Залізна сокира
+goldaxe=Золота сокира
+frostaxe=Морозна сокира
+demonicaxe=Демонічна сокира
+ivyaxe=Плющева сокира
+tungstenaxe=Вольфрамова сокира
 
 // Shovels
-woodshovel=Wood Shovel
-coppershovel=Copper Shovel
-ironshovel=Iron Shovel
-goldshovel=Gold Shovel
-frostshovel=Frost Shovel
-ivyshovel=Ivy Shovel
-demonicshovel=Demonic Shovel
-tungstenshovel=Tungsten Shovel
+woodshovel=Дерев'яна лопата
+coppershovel=Мідна лопата
+ironshovel=Залізна лопата
+goldshovel=Золота лопата
+frostshovel=Морозна лопата
+ivyshovel=Плющева лопата
+demonicshovel=Демонічна лопата
+tungstenshovel=Вольфрамова лопата
 
-// Fishing rods
-godrod=God Rod
-woodfishingrod=Wood Fishing Rod
-ironfishingrod=Iron Fishing Rod
-overgrownfishingrod=Overgrown Fishing Rod
-goldfishingrod=Gold Fishing Rod
-depthscatcher=Depths Catcher
+// Fishing rods ???
+godrod=Божественна вудка
+woodfishingrod=Дерев'яна вудка
+ironfishingrod=Залізна вудка
+overgrownfishingrod=Заросла вудка
+goldfishingrod=Золота вудка
+depthscatcher=Глибинний ловець
 
 // Bait
-godbait=God Bait
-wormbait=Worm Bait
-swamplarva=Swamp Larva
-anglersbait=Anglers Bait
+godbait=Божественна наживка
+wormbait=Черв'як
+swamplarva=Болотна личинка
+anglersbait=Рибальська наживка
 
-// Misc tools
-sickle=Sickle
-farmingscythe=Farming Scythe
-wrench=Wrench
-cutter=Cutter
-wire=Wire
+// Misc tools ???
+sickle=Серп
+farmingscythe=Коса
+wrench=Розвідний ключ
+cutter=Кусачки
+wire=Дріт
 
 // Swords
-woodsword=Wood Sword
-coppersword=Copper Sword
-ironsword=Iron Sword
-goldsword=Gold Sword
-frostsword=Frost Sword
-nunchucks=Nunchucks
-heavyhammer=Heavy Hammer
-lightninghammer=Lightning Hammer
-demonicsword=Demonic Sword
-spiderclaw=Spider Claw
-ivysword=Ivy Sword
-cutlass=Cutlass
-tungstensword=Tungsten Sword
-reaperscythe=Reaper Scythe
-antiquesword=Antique Sword
+woodsword=Дерев'яний меч
+coppersword=Мідний меч
+ironsword=Залізний меч
+goldsword=Золотий меч
+frostsword=Морозний меч
+nunchucks=Нунчаки
+// ???
+heavyhammer=Важкий молот
+lightninghammer=Громовий молот
+demonicsword=Демонічний меч
+spiderclaw=Павучий кіготь
+ivysword=Плющевий меч
+cutlass=Шабля
+tungstensword=Вольфрамовий меч
+reaperscythe=Коса Жнеця
+antiquesword=Стародавній меч
 
 // Spears
-woodspear=Wood Spear
-copperpitchfork=Copper Pitchfork
-copperspear=Copper Spear
-ironspear=Iron Spear
-goldspear=Gold Spear
-frostspear=Frost Spear
-demonicspear=Demonic Spear
-voidspear=Void Spear
-ivyspear=Ivy Spear
+woodspear=Дерев'яний спис
+copperpitchfork=Мідні вила
+copperspear=Мідний спис
+ironspear=Залізний спис
+goldspear=Золотий спис
+frostspear=Морозний спис
+demonicspear=Демонічний спис
+voidspear=Пустотний спис
+ivyspear=Плющевий спис
+// ???
 vulturestalon=Vultures Talon
-tungstenspear=Tungsten Spear
-cryospear=Cryo Spear
+tungstenspear=Вольфрамовий спис
+cryospear=Заморожений спис
 
 // Glaives
-goldglaive=Gold Glaive
-frostglaive=Frost Glaive
-quartzglaive=Quartz Glaive
-cryoglaive=Cryo Glaive
+goldglaive=Золота глефа
+frostglaive=Морозна глефа
+quartzglaive=Кварцова глефа
+cryoglaive=Заморожена глефа
 
-// Bows
-woodbow=Wood Bow
-copperbow=Copper Bow
-ironbow=Iron Bow
-goldbow=Gold Bow
-frostbow=Frost Bow
-demonicbow=Demonic Bow
-ivybow=Ivy Bow
+// Bows ???
+woodbow=Дерев'яний лук
+copperbow=Мідний лук
+ironbow=Залізний лук
+goldbow=Золотий лук
+frostbow=Морозний лук
+demonicbow=Демонічний лук
+ivybow=Плющевий лук
 vulturesburst=Vultures Burst
-tungstenbow=Tungsten Bow
-glacialbow=Glacial Bow
+tungstenbow=Вольфрамовий лук
+glacialbow=Крижаний лук
 bowofdualism=Bow of Dualism
-antiquebow=Antique Bow
+antiquebow=Стародавній лук
 
-// Arrows
-stonearrow=Stone Arrow
-firearrow=Fire Arrow
-poisonarrow=Poison Arrow
+// Arrows ???
+stonearrow=Кам'яна стріла
+firearrow=Вогняна стріла
+poisonarrow=Отруйна стріла
 bouncingarrow=Bouncing Arrow
-ironarrow=Iron Arrow
-bonearrow=Bone Arrow
+ironarrow=Залізна стріла
+bonearrow=Кістяна стріла
 
-// Guns
-handgun=Handgun
+// Guns ???
+handgun=Пістолет
 webbedgun=Webbed Gun
-sniperrifle=Sniper Rifle
-machinegun=Machine Gun
-shotgun=Shotgun
-flintlock=Flintlock
-handcannon=Hand Cannon
+sniperrifle=Снайперська гвинтівка
+machinegun=Кулемет
+shotgun=Дробовик
+flintlock=Пістоль
+handcannon=Ручна гармата
 deathripper=Death Ripper
 cryoblaster=Cryo Blaster
-antiquerifle=Antique Rifle
+antiquerifle=Стародавня гвинтівка
 
-// Bullets
+// Bullets ???
 simplebullet=Simple Bullet
 bouncingbullet=Bouncing Bullet
 voidbullet=Void Bullet
