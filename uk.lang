@@ -2415,8 +2415,8 @@ scoredirunknown=Невідоме місцезнаходження
 latencytip=<latency> ms
 healthbartip=Здоров'я <value>
 hungerbartip=Голод <value>
-respawn=Відродження
-respawnin=Відродження через <seconds>
+respawn=Відродитися
+respawnin=Відродження <seconds>
 totalarmor=Загальна броня: <armor>
 waitingplayers=Чекаємо гравців <count>/<total>
 filtercraft=Craftable
@@ -2588,7 +2588,7 @@ xcoord=X координата
 ycoord=Y координата
 // ???
 spawnguide=Spawn guide house
-disablespawns=Вимкнути появу мобу
+disablespawns=Вимкнути появу мобів
 // ???
 daymodnew=Day time modifier
 nightmodnew=Night time modifier
