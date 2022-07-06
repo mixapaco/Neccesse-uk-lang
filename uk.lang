@@ -3075,7 +3075,7 @@ wireedit=Wire edit
 
 // Quickbar
 shiftmoreinfo=Тримайте shift для отримання додаткової інформації
-restocktip=Restock from nearby inventories
+restocktip=Поповнити запаси з найближчих резервів
 quickstacktip=Quick stack to nearby inventories
 quickstacktipinfo=Will quick stack items to nearby inventories. Use <key> to lock items from being stacked
 sorttip=Sort inventory
