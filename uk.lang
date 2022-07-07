@@ -3120,31 +3120,31 @@ sageandgrittip=Summoned in deep desert caves by using Dragon Souls on the temple
 fallenwizardtip=Fought on the second floor of the deep desert temple
 
 [tutorials]
-treestorch=Follow instruction arrows to learn how to chop a tree and craft a torch.
-hittree=Walk close and hit tree with axe by pressing <key>
-findtree=Find a tree to chop down
-openinv=Press <key> to open inventory
-crafttorch=Craft a torch in crafting menu
-craftwork=Find or craft a workstation from inventory crafting (requires 10[item=pinelog]) and place it down with <key1>. Then use it by pressing <key2> on it.
-craftpick=Find and craft a wood pickaxe in the workstation (requires 8[item=pinelog]).
-talkelder=Talk to the elder to learn about the game.
-elderdoor=Walk to and open door with <key>
-elderwalk=Walk close and talk to elder with <key>
-talkelderstop=Walk away or press <key> to stop talking to the elder when you are done.
-findore=Find some ore underground to mine. You can place torches to light up the area.
-gounder=Go underground to find ore
-craftladder=Craft a ladder in inventory crafting, place and use it to go underground.
-craftladderfloat=Craft a ladder from your inventory crafting and place it with <key>
-useladder=Go to and use the ladder to go underground.
-useladderfloat=Walk close and press <key> on ladder to go underground
-useladderdoor=Go to and use the ladder to go underground. You can open and close doors by pressing <key> on them.
-mineore=Mine ore by pressing <key> with your pickaxe in hand
-findorefloat=Walk or mine around to find some ore
-ores=Ores are used to craft bars, which are used in many recipes throughout the game.
-oresnext=Next
-travel=If you travel out in the water to the edge of the map, you will be able to go to other islands. Islands have different biomes and features like dungeons and villages. Press <key> to browse world map. Good luck exploring!
-travelend=End tutorial
-skip=Skip
+treestorch=Дотримуйтесь інструкцій, щоб навчитися рубати дерево та створювати факел.
+hittree=Підійдіть ближче та вдарте сокирою по дереву, натиснувши <key>
+findtree=Знайдіть дерево, щоб зрубати
+openinv=Натисніть <key>, щоб відкрити інвентар
+crafttorch=Зробіть факел у меню створення
+craftwork=Знайдіть або створіть робочу станцію (потрібно 10[item=pinelog]) і розмістіть її за допомогою <key1>. Потім використовуйте її, натиснувши на ній <key2>.
+craftpick=Знайдіть і створіть дерев'яне кайло на робочій станції (потрібно 8[item=pinelog]).
+talkelder=Поговоріть зі старійшиною, щоб дізнатися про гру.
+elderdoor=Підійдіть до дверей і відкрийте їх <key>
+elderwalk=Підійдіть ближче і поговоріть зі старійшиною <key>
+talkelderstop=Відійдіть або натисніть <key>, щоб припинити розмову зі старійшиною, коли закінчите.
+findore=Знайдіть під землею руду для видобутку. Ви можете розмістити факели, щоб освітлити територію.
+gounder=Ідіть під землю, щоб знайти руду
+craftladder=Зробіть драбину в інвентарі, розмістіть і використовуйте її, щоб спуститися під землю.
+craftladderfloat=Зробіть драбину зі свого інвентарю та розмістіть її <key>
+useladder=Підійдіть і скористайтеся драбиною, щоб спуститися під землю.
+useladderfloat=Підійдіть ближче та натисніть <key> на драбині, щоб спуститися під землю
+useladderdoor=Підійдіть і скористайтеся драбиною, щоб спуститися під землю. Ви можете відкривати та закривати двері, натиснувши на них <key>
+mineore=Видобувайте руду, натискаючи <key> з кайлом в руці
+findorefloat=Походіть або покопайте, щоб знайти руду
+ores=Руди використовуються для виготовлення злитків, які використовуються в багатьох рецептах у грі.
+oresnext=Далі
+travel=Якщо ви допливите до краю карти, ви зможете потрапити на інші острови. Острови мають різні біоми та особливості, такі як підземелля та села. Натисніть <key>, щоб переглянути карту світу. Успіхів у дослідженні!
+travelend=Завершити вступ
+skip=Пропустити
 
 [settingsui]
 front=Налаштування
