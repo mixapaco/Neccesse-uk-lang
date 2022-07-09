@@ -1187,13 +1187,13 @@ frenzyorbtip=Збільшує шкоду до +40% відносно втраче
 templependanttip=Зменшує час перезарядки ривка на 25%
 
 // Tools
-tooldmg=Tool damage: <value>
-tooltier=Tool tier: <value>
-tooladdrange=<value> range
-pickaxetip=Pickaxe tool
-shoveltip=Shovel tool
-axetip=Axe tool
-demonictooltip=Can mine quartz in desert\ncaves and ivy in swamp caves
+tooldmg=Шкода інструменту: <value>
+tooltier=Рівень інструменту: <value>
+tooladdrange=<value> до дальності
+pickaxetip=Кайло
+shoveltip=Лопата
+axetip=Сокира
+demonictooltip=Здатна добувати кварц в пустельних печерах\nі плющ в болотних печерах
 tungstentooltip1=Здатна добувати обсидіан і
 tungstentooltip2=крижану руду в глибоких снігових печерах
 
@@ -1394,9 +1394,10 @@ ropetip=Used to rope most passive animals
 biomemaptip=Використовується для пошуку островів навколо вас
 mapfail=Карта не показала жодної корисної інформації
 mapresult=Карта показує <dir> вашого місцезнаходження (<coord>)
+// ???
 boattip1=Can be placed in water\nor used from mount slot
 boattip2=+1 travel distance
-minecarttip=Can be placed on tracks\nor used from mount slot
+minecarttip=Можна розмістити на рейки\nor used from mount slot
 shearstip=Можна використовувати для стрижки овець
 buckettip=Можна використовувати для збирання рідини та доїння корів
 infwaterbuckettip=Holds and picks up water
@@ -1420,8 +1421,8 @@ infiniteuse=Нескінчене використання
 traveltip=Travel to nearby islands
 sickletip=Ефективний для збирання дозрілих рослин
 farmingscythetip=Дуже ефективна для збирання дозрілих рослин
-cuttertip=Used to remove logic wire and gates
-wrenchtip=Used to place logic wire and edit gates
+cuttertip=Використовується для видалення логічних елементів і дротів
+wrenchtip=Використовується для розміщення логічних елементів і дротів
 wrenchammo=Available wire: <value>
 enchantslot=Enchant slot
 enchantfullstack=Need full stack to enchant
@@ -1531,7 +1532,7 @@ potions=Зілля
 bossitems=Boss items
 materials=Матеріали
 ore=Руда
-minerals=Minerals
+minerals=Мінерали
 bars=Злитки
 stone=Stone
 logs=Колоди
@@ -1550,8 +1551,8 @@ furniture=Меблі
 wallsanddoors=Стіни і двері
 fencesandgates=Паркани та ворота
 traps=Пастки
-wiring=Wiring
-logicgates=Logic gates
+wiring=Дроти
+logicgates=Логічні елементи
 misc=Різне
 mounts=Mounts
 pets=Pets
@@ -1562,140 +1563,144 @@ unknownitems=<count> невідомі предмети
 
 [enchantment]
 // Trinkets
-keen=Keen
-blunt=Blunt
-nimble=Nimble
-sluggish=Sluggish
-quick=Quick
-clumsy=Clumsy
-sturdy=Sturdy
-weak=Weak
-precise=Precise
-sloppy=Sloppy
-bulky=Bulky
-puny=Puny
+keen=Гострий
+blunt=Затуплений
+nimble=Спритний
+sluggish=Млявий
+quick=Швидкий
+clumsy=Незграбний
+sturdy=Міцний
+weak=Слабкий
+precise=Точний
+sloppy=Неакуратний
+bulky=Громіздкий
+puny=Кволий
 
 // Sword/melee weapon enchants
-berserk=Berserk
-adamant=Adamant
-agile=Agile
-harmful=Harmful
-grand=Grand
-docile=Docile
-shoddy=Shoddy
-amateur=Amateur
-envious=Envious
+berserk=Навіжений
+adamant=Непохитний
+agile=Жвавий
+harmful=Згубний
+grand=Величний
+docile=Покірний
+shoddy=Кепський
+amateur=Аматорський
+envious=Заздрісний
 
 // Ranged weapon enchants
-masterful=Masterful
-skillful=Skillful
-tightened=Tightened
-modern=Modern
-trained=Trained
-loose=Loose
-eroding=Eroding
-primitive=Primitive
-faulty=Faulty
+masterful=Майстерний
+skillful=Вправний
+tightened=Затягнений
+modern=Сучасний
+trained=Навчений
+loose=Послаблений
+// ???
+eroding=Зношений
+primitive=Примітивний
+faulty=Неправний
 
 // Magic weapon enchants
-divine=Divine
-wrathful=Wrathful
-wise=Wise
-adept=Adept
-apprentice=Apprentice
-decaying=Decaying
-novice=Novice
-daft=Daft
-corrupt=Corrupt
+divine=Божественний
+wrathful=Сердитий
+wise=Мудрий
+adept=Досвідчений
+apprentice=Учнівський
+decaying=Загниваючий
+novice=Недосвідчений
+daft=Недоумкуватий
+// ???
+corrupt=Зіпсований
 
 // Summon weapon enchants
-savage=Savage
-athletic=Athletic
-mindful=Mindful
-proud=Proud
-aware=Aware
-spoiled=Spoiled
-sick=Sick
-spiteful=Spiteful
-naive=Naive
+savage=Лютий
+// ???
+athletic=Атлетичний
+mindful=Уважний
+proud=Гордий
+aware=Обізнаний
+spoiled=Зіпсований
+sick=Недужий
+spiteful=Злопам’ятний
+naive=Простакуватий
 
 // Tool enchants
-master=Master
-shining=Shining
-sharp=Sharp
-absurd=Absurd
-used=Used
+// ??? кайло = кирка
+master=Майстерна
+shining=Блискуча
+sharp=Гостра
+absurd=Безглузда
+used=Уживана
 
 [buffmodifiers]
-currentmodifiers=Current modifiers:
-nomodifiers=No active modifiers
-limitmax=Max <modifier>
-limitmin=Min <modifier>
+currentmodifiers=Поточні модифікатори:
+nomodifiers=Немає активних модифікаторів
+limitmax=Максимум <modifier>
+limitmin=Мінімум <modifier>
 
-damage=<mod>% damage
-meleedamage=<mod>% melee damage
-rangeddamage=<mod>% ranged damage
-magicdamage=<mod>% magic damage
-summondamage=<mod>% summon damage
-tooldamage=<mod>% tool damage
-critchance=<mod>% crit chance
-critdamage=<mod>% crit damage
-armorpen=<mod>% armor penetration
-armorpenflat=<mod> armor penetration
-knockbackout=<mod>% knockback
+damage=<mod>% шкоди
+meleedamage=<mod>% шкоди ближнього бою
+rangeddamage=<mod>% шкоди дальнього бою
+magicdamage=<mod>% магічної шкоди
+summondamage=<mod>% шкоди посіпак
+tooldamage=<mod>% шкоди інструменту
+critchance=<mod>% шанс критичного удару
+critdamage=<mod>% шкода критичного удару 
+armorpen=<mod>% пробиття броні
+armorpenflat=<mod> пробиття броні
+knockbackout=<mod>% відкидування
 
-speed=<mod>% movement speed
-speedflat=<mod> movement speed
-slow=<mod>% movement slow
-swimspeed=<mod>% swim speed
-friction=<mod>% friction
-acceleration=<mod>% acceleration
-deceleration=<mod>% deceleration
+speed=<mod>% швидкість руху
+speedflat=<mod> швидкість руху
+slow=<mod>% сповільнення руху
+swimspeed=<mod>% швидкість плавання
+friction=<mod>% тертя
+acceleration=<mod>% прискорення
+deceleration=<mod>% уповільнення
 
-armor=<mod>% armor
-armorflat=<mod> armor
-incdamage=<mod>% damage taken
+armor=<mod>% броні
+armorflat=<mod> броні
+incdamage=<mod>% отриманої шкоди
 
-maxhealth=<mod>% max health
-maxhealthflat=<mod> max health
+maxhealth=<mod>% максимального здоров'я
+maxhealthflat=<mod> максимального здоров'я
 
-regen=<mod>% regen
-regenflat=<mod> regen
-combatregen=<mod>% combat regen
-combatregenflat=<mod> combat regen
+regen=<mod>% відновлення здоров'я
+regenflat=<mod> відновлення здоров'я
+combatregen=<mod>% відновлення здоров'я в бою
+combatregenflat=<mod> відновлення здоров'я в боюф
 
-poisondamage=<mod>% poison damage
-poisondamageflat=<mod> poison damage
-firedamage=<mod>% fire damage
-firedamageflat=<mod> fire damage
-frostdamage=<mod>% frost damage
-frostdamageflat=<mod> frost damage
-
+poisondamage=<mod>% шкоди отрутою
+poisondamageflat=<mod> шкоди отрутою
+firedamage=<mod>% шкоди вогнем
+firedamageflat=<mod> шкоди вогнем
+frostdamage=<mod>% шкоди морозом
+frostdamageflat=<mod> шкоди морозом
+// ???
 mobspawnrate=<mod>% mob spawn rate
 mobspawncap=<mod>% mob spawn cap
 mobspawnlightthreshold=<mod> mob spawn light threshold
+// ???
+attackspeed=<mod>% швидкість атаки
+meleeattackspeed=<mod>% швидкість ближньої атаки ближнього бою
+rangedattackspeed=<mod>% швидкість атаки дальнього бою
+magicattackspeed=<mod>% швидкість атаки магією
 
-attackspeed=<mod>% attack speed
-meleeattackspeed=<mod>% melee attack speed
-rangedattackspeed=<mod>% ranged attack speed
-magicattackspeed=<mod>% magic attack speed
+miningspeed=<mod>% швидкість видобутку
+buildingspeed=<mod>% швидкість будівництва
 
-miningspeed=<mod>% mining speed
-buildingspeed=<mod>% building speed
-
-miningrange=<mod> mining range
-buildingrange=<mod> building range
-itempickuprange=<mod> item pickup range
-
-arrowusage=<mod>% arrow usage
-bulletusage=<mod>% bullet usage
-maxsummons=<mod> max summons
-summonsspeed=<mod>% summons speed
-summonstargetrange=<mod>% summons target range
-
+miningrange=<mod> дальність видобутку
+buildingrange=<mod> дальність будівництва
+itempickuprange=<mod> дальність підбирання предметів
+// ??? 
+arrowusage=<mod>% використання стріл
+bulletusage=<mod>% використання куль
+maxsummons=<mod> максимум посіпак
+summonsspeed=<mod>% швидкість посіпак
+summonstargetrange=<mod>% дальність бою посіпак
+// ???
 attackmovement=<mod>% attack movement penalty
-projectilevel=<mod>% projectile velocity
-throwingvel=<mod>% throwing velocity
+projectilevel=<mod>% швидкість снаряда
+throwingvel=<mod>% швидкість метання
 
 dashstacks=<mod> dash stacks
 dashcooldown=<mod>% dash cooldown
@@ -1708,13 +1713,13 @@ staminaregen=<mod>% stamina regeneration
 traveldistance=<mod> travel distance
 biomeviewdistance=<mod> biome view distance
 
-knockbackin=<mod>% incoming knockback
-fishingpower=<mod>% fishing power
-fishinglines=<mod> fishing lines
-
-waterwalking=Allows water walking
-emitslight=Emits light
-invisibility=Enables invisibility
+knockbackin=<mod>% отримуване відкидування
+fishingpower=<mod>% рибальської сили
+fishinglines=<mod> волосінь
+// ???
+waterwalking=Дозволяє ходити по воді
+emitslight=Випромінює світло
+invisibility=Надає невидимість
 spelunker=Enables spelunker
 treasurehunter=Enables treasure hunter
 bouncy=Bouncy
@@ -1724,35 +1729,35 @@ targetrange=<mod>% target range
 chaserrange=<mod>% chaser range
 
 // Items
-toolknockback=<mod>% knockback
-toolrange=<mod>% range
+toolknockback=<mod>% відкидування
+toolrange=<mod>% дальність
 
 [mob]
 // Passive
-sheep=Sheep
-lamb=Lamb
-wildostrich=Wild Ostrich
-cow=Cow
-calf=Calf
-penguin=Penguin
-polarbear=Polar Bear
+sheep=Вівця
+lamb=Ягня
+wildostrich=Дикий страус
+cow=Корова
+calf=Теля
+penguin=Пінгвін
+polarbear=Полярний ведмідь
 
 // Critters
-rabbit=Rabbit
-squirrel=Squirrel
-snowhare=Snow Hare
-crab=Crab
-scorpion=Scorpion
-turtle=Turtle
-swampslug=Swamp Slug
-frog=Frog
-duck=Duck
-bird=Bird
-bluebird=Bluebird
-canarybird=Canary
-cardinalbird=Cardinal
-spider=Spider
-mouse=Mouse
+rabbit=Кролик
+squirrel=Білка
+snowhare=Сніговий заєць
+crab=Краб
+scorpion=Скорпіон
+turtle=Черепаха
+swampslug=Болотний слимак
+frog=Жаба
+duck=Качка
+bird=Птах
+bluebird=Синя пташка
+canarybird=Канарка
+cardinalbird=Кардинал
+spider=Павук
+mouse=Миша
 
 // Humans
 human=Villager
