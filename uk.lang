@@ -1019,8 +1019,7 @@ rope=Мотузка
 infiniterope=Нескінченна мотузка
 binoculars=Бінокль
 telescope=Телескоп
-// ???
-landfill=Landfill
+landfill=Насип
 grassseed=Насіння трави
 swampgrassseed=Насіння болотної трави
 fertilizer=Добриво
@@ -1094,22 +1093,22 @@ anycompostable=Any compostable
 anyfruit=Будь-які фрукти
 
 [itemtooltip]
-// Armor ???
+// Armor
 headslot=Голова
 chestslot=Туловище
 feetslot=Ноги
-cosmeticheadslot=Косметичний слот для голови
-cosmeticchestslot=Косметичний слот для туловища
-cosmeticfeetslot=Косметичний слот для ніг
+cosmeticheadslot=Косметична комірка для голови
+cosmeticchestslot=Косметична комірка для туловища
+cosmeticfeetslot=Косметична комірка для ніг
 cosmetic=Косметичний предмет
-cosmeticslot=Косметичний слот не надає ефектів
+cosmeticslot=Косметична комірка не надає ефектів
 armorvalue=+<value> до захисту
 setbonus=Бонус набору:
 ninjaset1=Чорт забирай, ти ніндзя!
 ninjaset2=Усуває зниження швидкості руху\nпід час атаки
 ivyhoodset=Атака отруює ціль\n15 шкоди в секунду (тривалість 5 секунд)
 ivyhelmetset=При отриманні шкоди виділяється отруйний слиз
-ivycircletset=Під час бою час від часу\nз'являється отруйний слимак
+ivycircletset=Під час бою час від часу\nз'являється отруйний слизовик
 quartzset=Отримайте миттєве пришвидшення\nпісля отримання шкоди\n20 секунд перезаряджання
 voidset=Натисніть [input=setability] щоб отримати миттєве пришвидшення
 tungstenset1=Стійкість до відкидування
@@ -1124,18 +1123,17 @@ glacialhelmetset=Атаки ближнього бою вистрілюють б�
 glacialcircletset=Атаки посіпак сповільнюють ціль
 ancientfossilset=Натисніть [input=setability] щоб отримати 100% шанс критичного удару на 5 секунд
 
-// Trinkets
-trinketslot=Trinket slot
-trinketabilityslot=Trinket ability slot
+// Trinkets ???
+trinketslot=Місце для дрібничок
+trinketabilityslot=Місце для дрібничок із здібностями
 useabilityslot=Use trinket ability slot first
-trinketdisabled=§hDisabled by <items>
+trinketdisabled=§hВимкнена через <items>
 demonclawtip=Надає стійкість до відкидування
 polarclawtip=Атаки сповільнюють ціль
 finstip=Подвоює швидкість плавання
 ninjasmark1=Усуває зниження швидкості руху
 ninjasmark2=під час атаки
-// ???
-piratetelescope=Extends travel and biome view range by 1
+piratetelescope=Збільшує відстань перегляду та подорожі по карті на 1
 leatherglovetip=Збільшує швидкість атаки на 10%
 trackerboottip=Збільшує швидкість руху на 10%
 shinebelttip=Освітлює область навколо вас
@@ -1157,9 +1155,8 @@ ancientfeather=Збільшує швидкість снаряда на 50%
 airvesseltip=Додає 2 ривка
 miningcharm=Збільшує шкоду інструментами на 40%
 minersbouquettip=Збільшує швидкість видобутку на 25%
-// ???
-minersbouquetusetip=Swing to turn on calming effect
-calmingminersbouquetusetip=Swing to turn off calming effect
+minersbouquetusetip=Взмах активовує ефект заспокоєння
+calmingminersbouquetusetip=Взмах скасовує ефект заспокоєння
 cactusshield1=Збільшує захист на 4
 cactusshield2=Має шанс повернути шкоду
 magicalquiver=Зменшує використання стріл на 75%
@@ -1188,7 +1185,7 @@ templependanttip=Зменшує час перезарядки ривка на 25
 
 // Tools
 tooldmg=Шкода інструменту: <value>
-tooltier=Рівень інструменту: <value>
+tooltier=Ранг інструменту: <value>
 tooladdrange=<value> до дальності
 pickaxetip=Кайло
 shoveltip=Лопата
@@ -1199,8 +1196,7 @@ tungstentooltip2=крижану руду в глибоких снігових п
 
 // Weapons
 damagetip=Шкода: <value>
-// ???
-truedamagetip=Справжня шкода: <value>
+truedamagetip=Правдива шкода: <value>
 meleedamagetip=Шкода в ближньому бою: <value>
 rangeddamagetip=Шкода в дальньому бою: <value>
 magicdamagetip=Магічна шкода: <value>
@@ -1209,14 +1205,12 @@ attackspeedtip=Швидкість атаки: <value>
 crittip=Шанс критичного удару: <value>%
 knockbacktip=Відкидування: <value>
 ammotip=Наявні набої: <value>
-// ???
-arrowtip=Can be shot with bow
+arrowtip=Використовується для стрільби з лука
 cannonballtip=Використовується в ручній гармати
-boomerangstack=Stacks up to <value>
+boomerangstack=Складається до <value>
 bowtip=Стріляє стрілами
-// ???
 guntip=Для стрільби необхідні кулі
-summonfocustip=Use [input=mouse2] to focus a mob
+summonfocustip=Натисніть [input=mouse2], щоб обрати ціль
 handcannontip1=Стріляє гарматними ядрами
 handcannontip2=Набої виготовляються на залізному ковадлі
 machineguntip=Має 50% шанс не витратити набої
@@ -1232,51 +1226,51 @@ speartip=Наносить шкоду тільки наконечником
 bloodbolttip=Стріляє самонавідним снарядом
 bloodvolleytip=Стріляє 3 самонавідними снарядами
 froststafftip=Стріляє 2 снарядами, що пришвидшуються
-voidstafftip=Shoots an instant void laser
+voidstafftip=Стріляє пустотним променем
 voidmissiletip=Стріляє керованою ракетою
-swamptometip=Shoots a slow moving\nand bouncing projectile
-genielamptip=Sprays fast water projectiles
+swamptometip=Стріляє повільним\nі відстрибуючим снарядом
+genielamptip=Розбризкує водяним потоком
 destructivetip=Знищує предмети
-venomstafftip=Places venom on the ground
+venomstafftip=Розбризкує отруту на землю
 dredgingstafftip=Випускає хвилю шипів
-boulderstafftip=Launches a bouncing boulder
-quartzstafftip=Shoots a fast piercing bolt
-vulturesbursttip=Shoots a high speed piercing shot
-elderlywandtip=Shoots a controllable piercing missile
+boulderstafftip=Випускає стибаючий валун
+quartzstafftip=Випускає швидкий пробиваючий снаряд
+vulturesbursttip=Випускає швидкісний пробиваючий вистріл
+elderlywandtip=Стріляє керованим пробиваючим снарядом
 shadowbolttip=Стріляє великим самонавідним снарядом
-shadowbeamtip=Shoots an instant shadow beam
+shadowbeamtip=Стріляє променем тіні
 dragonlancetip=Створює вогняний спис
-reaperscalltip1=Summons defending spirits
+reaperscalltip1=Викликає захисних духів
 reaperscalltip2=Максимум 5 одночасно
 iciclestafftip=Стріляє стрімкими бурульками
 boxingglovetip=Наносить мало шкоди, але має сильне відкидування
 zephyrbootstip=Екіпіруйте і утримуйте [input=trinketability] для спринту
 staminausertip=Використовує витривалість протягом використання
-fowtipequipped=Press [input=trinketability] to push yourself forward
-fowtipnotequipped=Equip and press [input=trinketability] to push yourself forward
-fowtip2=Can also be used from hand
-blinksceptertip=Equip and press [input=trinketability] to blink forward
-glacialbowtip=Shoots a projectile that shatters\nto nearby enemies on hit
+fowtipequipped=Натисніть [input=trinketability], щоб зробити ривок
+fowtipnotequipped=Одягніть і натисніть [input=trinketability], щоб зробити ривок
+fowtip2=Може використовуватись з руки
+blinksceptertip=Одягніть і натисніть [input=trinketability], щоб майнути уперед
+glacialbowtip=Стріляє снарядом який розколюється\nбіля ворогів
 glacialboomerangtip=Контрольований при киданні
 glacialboomerangtip2=Кидає 2 бумеранги одночасно
 cryoquaketip=Утворює лінію бурульок
 cryospeartip=Випускає осколок під час атаки
 bowofdualismtip=Стріляє 2 снарядами одночасно
-bannertip=Hold in hand to buff yourself\nand teammates
+bannertip=Тримайте у руках, щоб підсилити себе\nта союзників
 razorbladeboomerangtip=Максимум 5 в повітрі
 ancientdredgingstafftip=Викликає ударну хвилю шипів
-// ??? brainonasticktip=Кожен другий посіпака є лучником
-brainonasticktip=Every other summon is an archer
+brainonasticktip=Кожен другий посіпака є лучником
 skeletonstafftip=Викликає пару скелетів
-slimecanistertip=Summons short lived poison slimes
-secondarysummon=Does not use summon slots
+slimecanistertip=Викликає короткоживучого отруйного слизовика
+// ???
+secondarysummon=Виклик не займає комірку
 
 // Food
 nutritiontip=Поживність: <value>
 foodqualitytip=Якість: <quality>
 
-// Potions ???
-consumetip=Can be consumed
+// Potions
+consumetip=Може бути випито
 hourduration=<value> година
 hoursduration=<value> години
 minduration=<value> хвилина
@@ -1284,7 +1278,7 @@ minsduration=<value> хвилин
 secduration=<value> секунда
 secsduration=<value> секунд
 duration=<value> тривалість
-healthpot=Restores <health> health instantly
+healthpot=Миттєво відновлює <health> здоров'я
 healthpottip=Натисніть <key> для швидкого використання
 attackspeedpot=Збільшує швидкість атаки
 battlepot=Збільшує завдану шкоду на 10%
@@ -1297,15 +1291,15 @@ resistpot=Збільшує захист на 8
 speedpot=Збільшує швидкість руху
 spelunkerpot=Підсвічує руди
 treasurepot=Підсвічує скарби
-passivepot=Reduces hostile mob spawns
-buildingpot=Increases tile and object place speed
-miningpot=Increases mining speed
-thornspot=Damages attackers
+passivepot=Знижує появу ворожих істот
+buildingpot=Збільшує швидкість будівництва
+miningpot=Збільшує швидкість видобутку
+thornspot=Наносить шкоду атакуючому
 strengthpot=Збільшує шкоду ближнього бою на 10%
 rangerpot=Збільшує шкоду дальнього бою на 10%
 wisdompot=Збільшує магічну шкоду на 10%
 minionpot=Збільшує максимальну кількість посіпак на 1
-knockbackpot=Increases knockback given
+knockbackpot=Збільшує відкидування
 rapidpot=Збільшує швидкість снаряда
 accuracypot=Збільшує шанс критичного удару
 
@@ -1322,15 +1316,15 @@ flowertip=Можна помістити в квітковий горщик
 graintip=Можна згодувати тварині
 milltip=Можна подрібнювати на зерновому млині
 activewiretip=Активує дроти
-settlementflagtip1=Used to start a settlement
+settlementflagtip1=Використовується для заснування поселення
 settlementflagtip2=Необхідно розмістити на поверхні
-settlementflagtip3=Cannot be placed at NPC village
+settlementflagtip3=Не може бути розміщено в поселенні НІП-ів
 tnttip=Вибухає при активації
 fireworkdispensertip=Запускає феєрверки при активації
 activatedwiretip=Активується дротом
 ladderdowntip=Використовується для спуску у печери
 deepladderdowntip=Використовується для спуску у глибокі печери
-placeinsettlement=Must be placed in settlement it was bought at
+placeinsettlement=Повинно бути розміщено в поселенні в якому було куплено
 waystonetip1=Буде знищено при видобутку
 waystonetip2=Продає Маг поселення
 compostbintip=Використовується для створення добрив
@@ -1339,17 +1333,17 @@ cheesepresstip=Використовується для приготування 
 feedingtroughtip=Використовується годування тварин
 campfireaddontip=Можна розмістити на багатті 
 trainingdummytip=Атакуйте для перевірки шкоди
-dressertip=Stores armor sets
-displaytip=Displays stored item
+dressertip=Зберігає комплект броні
+displaytip=Відображає предмет
 bannerstandtip=Застосовує ефекти банеру навколо себе
 campfiretip=Забезпечує регенерацію здоров'я, коли запалений
 musicplayertip=Програє платівки
 
-// Firework ???
+// Firework
 fireworkrandom=Випадковий
 fireworkshape=Форма: <shape>
 fireworksphere=Сфера
-fireworksplash=Splash
+fireworksplash=Бризки
 fireworkdisc=Диск
 fireworkstar=Зірка
 fireworkheart=Серце
@@ -1365,22 +1359,22 @@ fireworknocrackle=Без тріску
 fireworkyescrackle=Тріск
 
 // Misc ???
-itemcount=<amount> total items
-craftingmat=Crafting material
-mountslot=Mount slot
+itemcount=Всього предметів <amount>
+craftingmat=Предмет для створення
+mountslot=Транспорт
 cointip=Використовується для торгівлі з селами
 baittip=Використовувався під час риболовлі
 fishingrodtip=Використовується для риболовлі
-fishingpower=Fishing power: <value>
-fishinglines=<value> fishing lines
+fishingpower=Сила риболовлі: <value>
+fishinglines=<value> волосіні
 baitamounttip=Наживка в наявності : <value>
-evilsevent=Calls for a powerful creature
-royaleggtip1=Summons a terrifying creeper
+evilsevent=Викликає могутню істоту
+royaleggtip1=Викликає жахаючого повзуна
 royaleggtip2=Необхідно використовувати в снігових печерах
 royaleggtip3=*Перевіряє фобію*
-voidcallertip1=Calls for the Void Wizard
+voidcallertip1=Викликає Мага Пустоти
 voidcallertip2=Необхідно використовувати на арені підземелля
-spikedfossiltip1=Calls for a powerful crawler
+spikedfossiltip1=Викликає могутнього плазуна
 spikedfossiltip2=Необхідно використовувати в болотних печерах
 ancientstatuetip1=Викликає стародавню істоту
 ancientstatuetip2=Необхідно використовувати в пустелі
@@ -1389,25 +1383,24 @@ shadowgatetip2=Необхідно використовувати в глибок
 icecrowntip1=Викликає свого власника
 icecrowntip2=Необхідно використовувати в глибоких снігових печерах
 dragonsoulstip=Використовується для активації постаменту в глибоких печерах пустелі
-binocularstip=Look further into the distance
-ropetip=Used to rope most passive animals
+binocularstip=Дивись в далечінь
+ropetip=Дозволяє заарканити більшість мирних тварин
 biomemaptip=Використовується для пошуку островів навколо вас
 mapfail=Карта не показала жодної корисної інформації
 mapresult=Карта показує <dir> вашого місцезнаходження (<coord>)
-// ???
-boattip1=Can be placed in water\nor used from mount slot
-boattip2=+1 travel distance
-minecarttip=Можна розмістити на рейки\nor used from mount slot
+boattip1=Може бути опущена на воду\nабо використана з комірки транпорту
+boattip2=+1 до відстані подорожі
+minecarttip=Може бути розміщена на рейки\nабо використана з комірки транпорту
 shearstip=Можна використовувати для стрижки овець
 buckettip=Можна використовувати для збирання рідини та доїння корів
-infwaterbuckettip=Holds and picks up water
+infwaterbuckettip=Зачерпує і тримає воду
 infwaterbucketplace=Розміщує воду
 infwaterbucketpickup=Збирає воду
 demonhearttip=Назавжди збільшує максимальне здоров'я до 200
 lifeelixirtip=Назавжди збільшує максимальне здоров'я на 10 аж до 300
 emptypendanttip=Назавжди збільшує максимальну кількість дрібничок до 5
 wizardsockettip=Назавжди збільшує максимальну кількість дрібничок до 6
-vinyltip=Put in music player to play
+vinyltip=Встав в програвач для відтворення
 recalltip=Телепортує до вашої точки відродження
 stinkflasktip=Покриває вас запахом, який приваблює ворогів
 enchantingscrollequipmenttip=Used to enchant an equipment item with <enchantment>
@@ -1417,58 +1410,59 @@ enchantingscrollmagictip=Used to enchant a magic weapon with <enchantment>
 enchantingscrollsummontip=Used to enchant a summon weapon with <enchantment>
 enchantingscrolltooltip=Used to enchant a tool item with <enchantment>
 singleuse=Одноразове використання
-infiniteuse=Нескінчене використання
-traveltip=Travel to nearby islands
+infiniteuse=Нескінченне використання
+traveltip=Відправляє до найближчих островів
 sickletip=Ефективний для збирання дозрілих рослин
 farmingscythetip=Дуже ефективна для збирання дозрілих рослин
 cuttertip=Використовується для видалення логічних елементів і дротів
 wrenchtip=Використовується для розміщення логічних елементів і дротів
-wrenchammo=Available wire: <value>
-enchantslot=Enchant slot
+wrenchammo=Доступно дроту: <value>
+enchantslot=Місце для зачарування
 enchantfullstack=Need full stack to enchant
-materialslot=Crafting material slot
+materialslot=Матеріали
 trashslot=Смітник
-voidshardtip=Magical essence
+voidshardtip=Магічна сутність
 glassbottletip=Використовується в алхімії
 mapfragmenttip=Об’єднайте 2 частини, щоб створити карту
 sparepartstip=Використовується для виготовлення сталевого човна
-wiretip=Can be used with the wrench
+wiretip=Використовується розвідним ключем
 voidpouchtip=Маленька особиста сумка
 voidbagtip=Велика особиста сумка
 coinpouchtip1=Зберігає підібрані копійки
 coinpouchtip2=[input=-99] щоб вийняти копійки
 coinpouchstored=Зібрано копійок: <coins>
-ammopouchtip1=Ammo is used from pouches first
-ammopouchtip2=Stores ammo picked up
-potionpouchtip1=Potions are used from pouches first
-potionpouchtip2=Stores potions picked up
-storedpotions=Stored potions: <items>
-lunchboxtip1=Stores food picked up
-lunchboxtip2=Use to eat the food inside
-storedfood=Stored food: <items>
-fireworkrockettip=Can be launched from hand or a dispenser
-storedammo=Stored ammo: <items>
-rclickopentip=[input=-99] to open
-rclickinvopentip=[input=-99] in inventory to open
-rclickinvopenerror=Must be in own inventory
+ammopouchtip1=Набої з підсумків використовується першими
+ammopouchtip2=Зберігає підібрані набої
+potionpouchtip1=Зілля з мішечків використовується першими
+potionpouchtip2=Зберігає підібрані зілля
+storedpotions=Зілля в мішечку: <items>
+lunchboxtip1=Зберігає підібрану їжу
+lunchboxtip2=Використовуйте для споживання їжі, що всередині
+storedfood=Їжі всередині: <items>
+fireworkrockettip=Може запускатися з руки або викидача феєрверків
+storedammo=Набоїв: <items>
+rclickopentip=[input=-99] щоб відкрити
+rclickinvopentip=[input=-99] щоб відкрити з інвентаря
+rclickinvopenerror=Повинно бути у власному інвентарі
 usetoopentip=Use to open
-landfilltip=Can be used to fill out water
-grassseedtip=Used to start a grass patch
+landfilltip=Дозволяє засипати воду
+grassseedtip=Дозволяє висадити траву
 fertilizertip=Використовуйте на посівах для прискорення росту
 brokentooltip=Можна переплавити або продати
-portalnotonsurface=I need to be on the surface
-portalnotnight=It needs to be night time for this to work
+portalnotonsurface=Мені потрібно бути на поверхні
+portalnotnight=Щоб це спрацювало, повинна бути ніч
 portalnospace=Тут не достатньо місця
-portalerror=Does not work here
-callernoarena=I am not in the dungeon arena
-spawnmob=Used to spawn one <mob>
-summontip=Used to summon <mob>
-summonquicktip=[input=-99] to quick summon
-summonmounttip=Used to summon <mob> mount
+portalerror=Тут не працює
+callernoarena=Я не на арені підземелля
+spawnmob=Викликає одного <mob>
+summontip=Викликає <mob>
+summonquicktip=[input=-99] для швидкого виклику
+summonmounttip=Викликає <mob>
 summonslots=Максимум посіпак: <count>
-summonuseslots=Uses <count> summon slots
-steelboattip=+2 travel distance
-jumpingballtip=Fun and fits all sizes!
+summonuseslots=Займає <count> комірки виклику
+steelboattip=+2 до відстані подорожі
+// ???
+jumpingballtip=Підходить для всіх!
 hoverboardtip=Повільно набирає швидкість
 bouncingammotip=Відбивається від стін
 voidammotip=Наводиться на найближчих ворогів
@@ -1505,7 +1499,7 @@ razoricicleobtain=Dropped from Cryo Flakes in deep snow caves
 wormtoothobtain=Dropped from Sand Worms in deep desert caves
 crawlersfootobtain=Dropped from Desert Crawlers in deep desert caves
 
-[itemcategory] ???
+[itemcategory]
 equipment=Споряджання
 tools=Інструменти
 pickaxes=Кайла
@@ -1516,7 +1510,7 @@ weapons=Зброя
 meleeweapons=Зброя ближнього бою
 rangedweapons=Зброя дальнього бою
 magicweapons=Магічна зброя
-summonweapons=Summon weapons
+summonweapons=Зброя виклику
 throwweapons=Метальна зброя
 ammo=Набої
 bait=Наживка
@@ -1524,29 +1518,30 @@ armor=Броня
 trinkets=Дрібнички
 cosmetics=Косметика
 banners=Банери
-consumable=Consumable
+consumable=Витратний
 rawfood=Сира їжа
 commonfish=Звичайна риба
 food=Їжа
 potions=Зілля
-bossitems=Boss items
+bossitems=Предмет боса
 materials=Матеріали
 ore=Руда
 minerals=Мінерали
 bars=Злитки
-stone=Stone
+stone=Камінь
 logs=Колоди
 specialfish=Особлива риба
 flowers=Квіти
-mobdrops=Drops
-tiles=Tiles
-floors=Floors
+mobdrops=Трофеї
+// ???
+tiles=Плитки
+floors=Підлоги
 liquids=Рідини
-terrain=Terrain
-objects=Objects
+terrain=Рельєф місцевості
+objects=Об'єкти
 seeds=Насіння
 saplings=Саджанці
-craftingstations=Crafting Stations
+craftingstations=Станції створення
 furniture=Меблі
 wallsanddoors=Стіни і двері
 fencesandgates=Паркани та ворота
@@ -1554,8 +1549,8 @@ traps=Пастки
 wiring=Дроти
 logicgates=Логічні елементи
 misc=Різне
-mounts=Mounts
-pets=Pets
+mounts=Транспорт
+pets=Домашні улюбленці
 pouches=Мішечки
 vinyls=Платівки
 questitems=Квестові предмети
@@ -1594,10 +1589,9 @@ tightened=Затягнений
 modern=Сучасний
 trained=Навчений
 loose=Послаблений
-// ???
-eroding=Зношений
+eroding=Згнилий
 primitive=Примітивний
-faulty=Неправний
+faulty=Невправний
 
 // Magic weapon enchants
 divine=Божественний
@@ -1608,12 +1602,10 @@ apprentice=Учнівський
 decaying=Загниваючий
 novice=Недосвідчений
 daft=Недоумкуватий
-// ???
 corrupt=Зіпсований
 
 // Summon weapon enchants
 savage=Лютий
-// ???
 athletic=Атлетичний
 mindful=Уважний
 proud=Гордий
@@ -1634,8 +1626,9 @@ used=Уживана
 [buffmodifiers]
 currentmodifiers=Поточні модифікатори:
 nomodifiers=Немає активних модифікаторів
-limitmax=Максимум <modifier>
-limitmin=Мінімум <modifier>
+// ??? максимум і мінімум
+limitmax=До <modifier>
+limitmin=До <modifier>
 
 damage=<mod>% шкоди
 meleedamage=<mod>% шкоди ближнього бою
@@ -1649,10 +1642,10 @@ armorpen=<mod>% пробиття броні
 armorpenflat=<mod> пробиття броні
 knockbackout=<mod>% відкидування
 
-speed=<mod>% швидкість руху
-speedflat=<mod> швидкість руху
+speed=<mod>% швидкості руху
+speedflat=<mod> швидкості руху
 slow=<mod>% сповільнення руху
-swimspeed=<mod>% швидкість плавання
+swimspeed=<mod>% швидкості плавання
 friction=<mod>% тертя
 acceleration=<mod>% прискорення
 deceleration=<mod>% уповільнення
@@ -1676,61 +1669,59 @@ firedamageflat=<mod> шкоди вогнем
 frostdamage=<mod>% шкоди морозом
 frostdamageflat=<mod> шкоди морозом
 // ???
-mobspawnrate=<mod>% mob spawn rate
-mobspawncap=<mod>% mob spawn cap
-mobspawnlightthreshold=<mod> mob spawn light threshold
-// ???
-attackspeed=<mod>% швидкість атаки
-meleeattackspeed=<mod>% швидкість ближньої атаки ближнього бою
-rangedattackspeed=<mod>% швидкість атаки дальнього бою
-magicattackspeed=<mod>% швидкість атаки магією
+mobspawnrate=<mod>% появи ворогів
+mobspawncap=<mod>% появи ворогів (максимум)
+mobspawnlightthreshold=<mod> світловий поріг появи ворогів
+attackspeed=<mod>% швидкості атаки
+meleeattackspeed=<mod>% швидкості атаки ближнього бою
+rangedattackspeed=<mod>% швидкості атаки дальнього бою
+magicattackspeed=<mod>% швидкості атаки магією
 
-miningspeed=<mod>% швидкість видобутку
-buildingspeed=<mod>% швидкість будівництва
+miningspeed=<mod>% швидкості видобутку
+buildingspeed=<mod>% швидкості будівництва
 
-miningrange=<mod> дальність видобутку
-buildingrange=<mod> дальність будівництва
-itempickuprange=<mod> дальність підбирання предметів
-// ??? 
+miningrange=<mod> дальності видобутку
+buildingrange=<mod> дальності будівництва
+itempickuprange=<mod> дальності підбирання предметів
 arrowusage=<mod>% використання стріл
 bulletusage=<mod>% використання куль
 maxsummons=<mod> максимум посіпак
-summonsspeed=<mod>% швидкість посіпак
-summonstargetrange=<mod>% дальність бою посіпак
-// ???
-attackmovement=<mod>% attack movement penalty
-projectilevel=<mod>% швидкість снаряда
-throwingvel=<mod>% швидкість метання
+summonsspeed=<mod>% швидкості посіпак
+summonstargetrange=<mod>% дальності бою посіпак
+attackmovement=<mod>% штраф руху під час атаки
+projectilevel=<mod>% швидкості снаряда
+throwingvel=<mod>% швидкості метання
 
-dashstacks=<mod> dash stacks
-dashcooldown=<mod>% dash cooldown
-dashcooldownflat=<mod>s dash cooldown
+dashstacks=Кількість ривків <mod>
+dashcooldown=<mod>% перезарядки ривка
+dashcooldownflat=<mod>c перезарядки ривка
 
-staminacap=<mod>% stamina capacity
-staminausage=<mod>% stamina usage
-staminaregen=<mod>% stamina regeneration
+staminacap=<mod>% витривалості
+staminausage=<mod>% використання витривалості
+staminaregen=<mod>% відновлення витривалості
 
-traveldistance=<mod> travel distance
-biomeviewdistance=<mod> biome view distance
+traveldistance=<mod> до відстані подорожі
+biomeviewdistance=<mod> до відстані перегляду
 
 knockbackin=<mod>% отримуване відкидування
 fishingpower=<mod>% рибальської сили
 fishinglines=<mod> волосінь
-// ???
+
 waterwalking=Дозволяє ходити по воді
 emitslight=Випромінює світло
 invisibility=Надає невидимість
-spelunker=Enables spelunker
-treasurehunter=Enables treasure hunter
-bouncy=Bouncy
-paralyzed=Paralyzed
+spelunker=Підсвічення руд
+treasurehunter=Підсвічення скарбів
+// ???
+bouncy=Стрибучість
+paralyzed=Паралізований
 
 targetrange=<mod>% target range
 chaserrange=<mod>% chaser range
 
 // Items
 toolknockback=<mod>% відкидування
-toolrange=<mod>% дальність
+toolrange=<mod>% дальності
 
 [mob]
 // Passive
@@ -1794,66 +1785,74 @@ travelingmerchant=Traveling merchant
 travelingmerchantname=<name> the Traveling Merchant
 
 // Hostile
-zombie=Zombie
-trapperzombie=Trapper Zombie
-goblin=Goblin
-vampire=Vampire
-zombiearcher=Zombie Archer
-crawlingzombie=Crawling Zombie
-giantcavespider=Giant Cave Spider
-blackcavespider=Black Cave Spider
-swampcavespider=Swamp Cave Spider
-cavemole=Cave Mole
+zombie=Зомбі
+trapperzombie=Зомбі-мисливець
+goblin=Гоблін
+vampire=Вампір
+zombiearcher=Зомбі-лучник
+crawlingzombie=Повзаючий зомбі
+giantcavespider=Гігантський печерний павук
+blackcavespider=Чорний печерний павук
+swampcavespider=Болотний печерний павук
+cavemole=Печерний кріт
+// ???
 frozendwarf=Frozen Dwarf
 frostsentry=Frost Sentry
-swampzombie=Swamp Zombie
-swampslime=Swamp Slime
+swampzombie=Болотний зомбі
+swampslime=Болотний слизовик
+// ???
 swampshooter=Swamp Shooter
-enchantedzombie=Enchanted Zombie
-enchantedzombiearcher=Enchanted Zombie Archer
-enchantedcrawlingzombie=Enchanted Crawling Zombie
-voidapprentice=Void Apprentice
-mummy=Mummy
-mummymage=Mummy Mage
-sandspirit=Sand Spirit
-jackal=Jackal
-skeleton=Skeleton
-skeletonthrower=Skeleton Thrower
-deepcavespirit=Deep Cave Spirit
-skeletonminer=Skeleton Miner
-ninja=Ninja
-snowwolf=Snow Wolf
+enchantedzombie=Зачарований зомбі
+enchantedzombiearcher=Зачарований зомбі-лучник
+enchantedcrawlingzombie=Зачарований повзаючий зомбі
+voidapprentice=Учень пустоти
+mummy=Мумія
+mummymage=Мумія-маг
+sandspirit=Дух піску
+jackal=Шакал
+skeleton=Скелет
+skeletonthrower=Скелет-метальник
+// ???
+deepcavespirit=Дух глибокої печери
+skeletonminer=Скелет-шахтар
+ninja=Ніндзя
+snowwolf=Сніговий вовк
+// ???
 cryoflake=Cryo Flake
-sandworm=Sandworm
-desertcrawler=Desert Crawler
-ancientskeleton=Ancient Skeleton
-ancientskeletonthrower=Ancient Skeleton Thrower
-ancientarmoredskeleton=Ancient Armored Skeleton
-ancientskeletonmage=Ancient Skeleton Mage
+sandworm=Піщаний черв'як
+desertcrawler=Пустельний повзун
+ancientskeleton=Стародавній скелет
+ancientskeletonthrower=Стародавній скелет-метальник
+ancientarmoredskeleton=Стародавній броньований скелет
+ancientskeletonmage=Стародавній скелет-маг
+// ???
 humanraider=Raider
 
 // Pets/spawned
 spawnedname=<player>'s <mob>
-tameostrich=Tame Ostrich
-petpenguin=Pet Penguin
-petparrot=Pet Parrot
-steelboat=Steel Boat
-petwalkingtorch=Walking Torch
-jumpingball=Jumping Ball
-hoverboard=Hoverboard
+tameostrich=Приручений страус
+petpenguin=Домашній пінгвін
+petparrot=Домашній папуга
+steelboat=Сталевий човен
+petwalkingtorch=Ходячий факел
+jumpingball=Пострибунчик
+hoverboard=Ховерборд
+// ???
 babyzombie=Baby Zombie
 babyzombiearcher=Baby Zombie Archer
 babyspider=Baby Spider
-frostpiercer=Frost Piercer
+frostpiercer=Морозний пронизувач
+// ???
 babysnowman=Baby Snowman
-playerpoisonslime=Poison Slime
-playervulturehatchling=Vulture Hatchling
-playerreaperspirit=Reaper Spirit
+playerpoisonslime=Отруйний слизовик
+playervulturehatchling=Дитинча стерв'ятника
+playerreaperspirit=Дух жнеця
+// ???
 playercryoflake=Cryo Flake
 babyskeleton=Baby Skeleton
 babyskeletonmage=Baby Skeleton Mage
 
-// Bosses/minions
+// Bosses/minions ???
 evilsprotector=Evil's Protector
 evilsportal=Evil's Portal
 portalminion=Portal Minion
@@ -1880,171 +1879,190 @@ fallenwizard=Fallen Wizard
 fallendragon=Fallen Dragon
 
 // Misc
-woodboat=Wood boat
-minecart=Minecart
-trainingdummy=Training dummy
+woodboat=Дерев'яний човен
+minecart=Вагонетка
+trainingdummy=Тренувальний манекен
 
 [mobmsg]
-angryshop=Will not talk right now
-busyhuman=<name> is busy
-humanangry1=I do not appreciate that
-humanangry2=Aw, that hurt!
-humanangry3=Please stop that
-humanangry4=What did you do that for?
-humanangry5=Why did you do that?
-humanangry6=What have I done to you?
+angryshop=Зараз не розмовлятиме
+busyhuman=<name> зайнятий
+humanangry1=Мені це не подобається
+humanangry2=Ай, це боляче!
+humanangry3=Будь ласка, припини це
+humanangry4=Для чого ти це зробив?
+humanangry5=Чому ти це зробив?
+humanangry6=Що я тобі зробив?
 
-humanangryactive1=I am only here to help you!
-humanangryactive2=I am trying to do stuff here!
-humanangryactive3=Stop that or I may have to kill you
+// ???
+humanangryactive1=Я тут лише для того, щоб допомогти тобі!
+humanangryactive2=Я намагаюся щось робити тут!
+humanangryactive3=Припини це, або мені доведеться вбити тебе
 
-humanattack1=Guards, help!
-humanattack2=You will regret that
-humanattack3=Now you made me angry!
-humanattack4=That was your last chance!
-humanattack5=Guards! We have an enemy between us!
-humanattack6=I am going to be done with you!
+humanattack1=Сторожі, допоможіть!
+humanattack2=Ти про це пошкодуєш
+humanattack3=Тепер ти мене розлютив!
+humanattack4=Це був твій останній шанс!
+// ???
+humanattack5=Сторожі! Між нами є ворог!
+humanattack6=Я збираюся покінчити з тобою!
 
-humantalk1=What is that smell around here?
-humantalk2=Sometimes all I want to do is lay in my bed
-humantalk3=Have you ever looked at the stars and just wondered?
-humantalk4=I often think about the big questions in life
-humantalk5=Why are we all here? Think about it, it's obvious!
+humantalk1=Що це за запах навколо?
+humantalk2=Іноді все, що я хочу робити, це лежати в ліжку
+// ???
+humantalk3=Ви коли-небудь дивилися на зірки і дивувалися?
+humantalk4=Я часто думаю про важливі питання в житті
+humantalk5=Чому ми всі тут? Подумайте, це очевидно!
 
-alchemisttalk1=I love mushrooms
-alchemisttalk2=My chemicals will never blow up, I assure you
-alchemisttalk3=You wanna get high?
-alchemisttalk4=What? No, I haven't been smoking the herbs!
-alchemisttalk5=Haha! Why is everything you say so funny!?
+alchemisttalk1=Я обожнюю гриби
+alchemisttalk2=Мої хімікати ніколи не вибухнуть, запевняю вас
+alchemisttalk3=Хочеш кайфанути?
+alchemisttalk4=Що? Ні, я не курив трави!
+alchemisttalk5=Ха-ха! Чому все, що ти кажеш, таке смішне!?
 
-anglertalk1=Fishing is love, fishing is life
-anglertalk2=One day you will see the joy in fishing
-anglertalk3=I have seen some weird fish in my days
-anglertalk4=I like to spend the day talking to my fish
-anglertalk5=Bait is essential to fishing!
+anglertalk1=Риболовля - це любов, риболовля - це життя
+// ???
+anglertalk2=Колись ви побачите, що таке задоволення від риболовлі
+anglertalk3=У свій час я бачив багато дивних риб
+anglertalk4=Мені подобається проводити день, спілкуючись зі своєю рибою
+anglertalk5=Наживка необхідна для риболовлі!
+// ???
 anglerspecial=Did <stylist> comment about my style?
 
 akeepertalk1=I have been collecting just for you!
+// ???
 akeepertalk2=You know what they say: Gotta catch them all!
-akeepertalk3=I have some of the most exotic animals you'll ever see!
-akeepertalk4=My pets take up very little time and care
-akeepertalk5=A pet can be a companion for life!
-akeepertalk6=I don't know how people survive without a pet by their side
-akeepertalk7=Some animals might be expensive, but worth it!
+akeepertalk3=У мене є одні з найекзотичніших тварин, яких ви коли-небудь бачите!
+akeepertalk4=Мої домашні улюбленці займають дуже мало часу та догляду
+akeepertalk5=Домашня тварина може бути супутником на все життя!
+akeepertalk6=Я не знаю, як люди можуть виживати без домашніх тварин
+akeepertalk7=Деякі тварини можуть бути дорогими, але вони того варті!
 
-blacksmithtalk1=My hammer can be used for more than forging!
-blacksmithtalk2=Using the right tool for the job is important!
-blacksmithtalk3=Your sword need to be sharpened?
-blacksmithtalk4=Take a look at my goods!
-blacksmithspecial=Don't sell your bars to <gunsmith>! He is using them wrong!
+blacksmithtalk1=Мій молот можна використовувати не лише для кування!
+blacksmithtalk2=Завжди важливо використовувати правильний інструмент!
+blacksmithtalk3=Твій меч потрібно нагострити?
+blacksmithtalk4=Подивись на мій товар!
+blacksmithspecial=Не продавай свої злитки <gunsmith>! Він неправильно їх використовує!
 
 eldertalk1=You should always go explore more than you already do
-eldertalk2=Old tales say some islands have dungeons with treasure
-eldertalk3=I see potential in such a young adventurer like you
-eldertalk4=Underground you will find some of the best ores in the world
-eldertalk5=I have only once seen a demon in my life, luckily I made it out alive
-eldertalk6=What can I help you with?
+eldertalk2=Старі байки кажуть, що на деяких островах є підземелля зі скарбами
+eldertalk3=Я бачу потенціал у такому молодому авантюристу, як ти
+eldertalk4=Під землею ви знайдете одні з найкращих руд у світі
+// ???
+eldertalk5=Я лише раз бачив демона в своєму житті, на щастя, я вийшов живим
+eldertalk6=Чим я можу тобі допомогти?
 
-farmertalk1=Have you seen my son?
-farmertalk2=You want to look like me?
-farmertalk3=Are you interested in agriculture?
-farmertalk4=I need someone to take over the farm when I get old
+farmertalk1=Ти бачив мого сина?
+farmertalk2=Ти хочеш бути схожим на мене?
+farmertalk3=Тебе цікавить сільське господарство?
+farmertalk4=Мені потрібен хтось, хто займеться фермою, коли я постарію
 
-gunsmithtalk1=Remember to practice before going hunting
-gunsmithtalk2=Guns don't kill people, people kill people
-gunsmithtalk3=I have some of the deadliest weapons in town!
+gunsmithtalk1=Не забувайте тренуватися перед полюванням
+gunsmithtalk2=Зброя не вбиває людей, люди вбивають людей
+// ???
+gunsmithtalk3=У мене найсмертоносніша зброя у місті!
 gunsmithtalk4=I swear there is nothing wrong with these goods
-gunsmithspecial1=Don't sell your bars to <blacksmith>! He is using them wrong!
-gunsmithspecial2=<hunter> is crazy, guns are the way to go!
+gunsmithspecial1=Не продавай свої злитки <blacksmith>!  Він неправильно їх використовує!
+gunsmithspecial2=<hunter> божевільний, немає нічого кращого за зброю!
 
-huntertalk1=There's nothing a bow and arrow can't handle
+huntertalk1=Немає нічого, з чим би не впоралися лук і стріли
+// ???
 huntertalk2=The core component of a bow is the me
-huntertalk3=I'll show you a trick if you put an apple on top of your head
-huntertalk4=Are you rich or poor?
-huntertalk5=Do I remind you of someone?
-huntertalkspecial=<gunsmith> is crazy, bows are the way to go!
+huntertalk3=Я покажу тобі трюк, якщо ти покладеш яблуко собі на голову
+huntertalk4=Ти багатий чи бідний?
+huntertalk5=Я тобі когось нагадую?
+huntertalkspecial=<gunsmith> божевільний, немає нічого кращого за луки!
 
-magetalk1=Are you interested in magic?
-magetalk2=You could have potential
-magetalk3=There are some magic you don't speak of
-magetalk4=There's no shop like mine!
-magetalk5=Powerful weapons needs enchants!
-magetalk6=Enchants can increase stats a lot
-magetalk7=I can help you enchant items or you can visit my shop!
+magetalk1=Тебе цікавить магія?
+magetalk2=Можливо у тобі є потенціал
+magetalk3=Є магія, про яку заборонено говорити
+// ???
+magetalk4=Не існує такого магазину, як мій!
+magetalk5=Для потужної зброї потрібні чари!
+magetalk6=Чари можуть значно збільшити характеристики спорядження
+magetalk7=Я можу допомогти вам зачарувати речі або ви можете подивитись, що я продаю!
 
-piratetalk1=I sometimes think about and miss the sea
-piratetalk2=Do you have any spare rum?
-piratetalk3=Did you find any treasure yet?
+piratetalk1=Я іноді думаю про море і сумую за ним
+piratetalk2=У тебе є запасний ром?
+piratetalk3=Ти вже знайшов, якийсь скарб?
+// ???
 piratetalk4=I have lost my lock, do you have it?
+piratetalk4=Я загубив свій пістоль, можливо він у тебе?
+// ???
 piratetalk5=My gunpowder is the best you'll ever find!
-piratetalk6=I didn't like the pirate lifestyle anyway
-piratespecial1=Thanks for not making me walk the plank!
+piratetalk6=Піратський спосіб життя мені все одно не подобався
+// ???
+piratespecial1=Дякую, що не змусив мене пройти по дошці!
 piratespecial2=I hope I didn't hurt ya before!
 
-stylisttalk1=Some say I look like I am from a cartoon?
-stylisttalk2=Growing your hair is not a super power!
-stylisttalk3=Looking to impress someone?
-stylisttalk4=A new set of jeans will sometimes solve all your problems!
-stylisttalk5=I also work on the weekends!
-stylisttalk6=My shop will surely impress you!
-stylisttalk7=Need a new haircut or just looking to buy a shirt?
-stylistspecial=I can't believe <angler> chose that style!
+stylisttalk1=Дехто говорить, що я виглядаю так, неначе я з мультфільму?
+stylisttalk2=Відростити волосся — це не суперсила!
+stylisttalk3=Хочеш справити на когось враження?
+stylisttalk4=Іноді новий комплект джинсів вирішує усі ваші проблеми!
+stylisttalk5=У вихідні я працюю також!
+stylisttalk6=Мій магазин точно тебе вразить!
+stylisttalk7=Потрібна нова зачіска або просто хочеш купити, якесь вбрання?
+stylistspecial=Я не можу повірити, що <angler> вибрав такий стиль!
 
-tmerchanttalk1=My wares are as exotic as you!
-tmerchanttalk2=What? I'm balding?
-tmerchanttalk3=Traveling is fun and rewarding!
+tmerchanttalk1=Мої вироби такі ж екзотичні, як і ви!
+tmerchanttalk2=Що? Я лисію?
+tmerchanttalk3=Подорожувати – це весело та корисно!
+// ???
 tmerchanttalk4=Looking to get into the business?
-tmerchanttalk5=I should get a pack mule for all this stuff
-tmerchanttalk6=Now you know why my backpack is so big
+tmerchanttalk5=Мені варто взяти в’ючного мула для всіх цих речей
+tmerchanttalk6=Тепер ти знаєш, чому мій рюкзак такий великий
+// ???
 tmerchanttalk7=I've been many places, this one is decent
 
-pawnbrokertalk1=I'll give you a fair price for that!
-pawnbrokertalk2=You know, I'm not just for throwing stuff at
-pawnbrokertalk3=Sometimes a pawnbroker is all you need
-pawnbrokertalk4=Oh, I'm gonna profit from this!
-pawnbrokertalk5=I promise I won't scam you!
-pawnbrokertalk6=Yes, I know I look dapper!
-pawnbrokertalk7=Do you have a cup of tea?
+pawnbrokertalk1=Я надам тобі справедливу ціну!
+pawnbrokertalk2=Знаєте, я не збираюся скупляти усе підряд
+pawnbrokertalk3=Іноді ломбард - це все, що тобі потрібно
+pawnbrokertalk4=О, я зможу на цьому нажитися!
+pawnbrokertalk5=Я не буду тебе обманювати, обіцяю!
+pawnbrokertalk6=Так, я знаю, що виглядаю ошатно!
+pawnbrokertalk7=У тебе є чашка чаю?
 
+// ???
 tpawnbrokertalk1=Has the merchant been here yet? I just met him out seas
 tpawnbrokertalk2=You've been waiting for me? That's nice
 
-explorertalk1=I like tropic islands the most
-explorertalk2=I've had my share of dangerous moments
-explorertalk3=This place is boring, I want to go somewhere!
-explorertalk4=A good pair of boots goes a long way
+// ???
+explorertalk1=Тропічні острови мені подобаються найбільше
+explorertalk2=Інколи я бував у небезпечних сиуаціях
+explorertalk3=Тут нудно, я хочу кудись піти!
+explorertalk4=З хорошою парою чобіт можна пройти довгий шлях
 explorertalk5=I wonder if I'll ever find one of those temples
-explorertalk6=Remind me to bring water before I leave
-explorertalk7=Let's be honest, surviving out there is pretty easy
-explorertalk8=Be careful of traps when exploring
+explorertalk6=Нагадай мені принести воду, перш ніж я піду
+explorertalk7=Скажемо чесно, вижити там досить легко
+explorertalk8=Будь обережним з пастками під час дослідження
 
-pirateattack1=ATTAAACK!
-pirateattack2=Surrender ye rum and hit the plank!
-pirateattack3=Me gunpowder will make quick work of ya!
-pirateattack4=Avast! We got an enemy in sight!
-pirateattack5=We will be popping me rum when done with ya!
-pirateattack6=Me cutlass will slice ya to pieces!
-pirateattack7=Ya will regret steppin' ya booty on our land!
+pirateattack1=В АТАААКУ!
+pirateattack2=Віддавай ром і пройдись дошкою!
+pirateattack3=Мій порох швидко впорається з тобою!
+pirateattack4=Стоп! Ми помітили ворога!
+pirateattack5=Ми нап’ємось рому, коли з тобою буде покінчено!
+pirateattack6=Моя шабля порубає тебе на шматочки!
+pirateattack7=Ти пошкодуєш про те, що ступив на нашу землю!
 
+// ???
 pirateescape1=Ya scared and be runnin!
-pirateescape2=I am done with ya!
-pirateescape3=Maybe next time lad!
+pirateescape2=Тут я з тобою закінчив!
+pirateescape3=Можливо, наступного разу, хлопче!
 
-[settlement]
-notsettler=Could not find settler
+[settlement] ???
+notsettler=Не вдалося знайти поселенця
 showreqs=Hold shift to see room requirements
 outsideerr=Room is outside
 notopenerr=Room is not an open area
-existserr=Room already exists
-doorerr=Room has no doors
-doorreq=At least one door
+existserr=Кімната вже існує
+doorerr=У кімнаті немає дверей
+doorreq=Потрібні хоча б одні двері
 floorerr=Room doesn't have a complete floor
 floorreq=Complete valid floor tiles
-lighterr=Room has no lights
-lightreq=At least one light source
-bederr=Room doesn't have a bed
-bedreq=At least one bed
-roomtoosmall=Room is too small
+lighterr=У кімнаті немає світла
+lightreq=Повинно бути принаймні одне джерело світла
+bederr=У кімнаті немає ліжка
+bedreq=Повинно бути принаймні одне ліжко
+roomtoosmall=Кімната занадто мала
 roomsizereq=Room size at least <size> tiles
 sizebaby=Baby
 sizetiny=Tiny
@@ -2064,7 +2082,7 @@ roomimpressive=Impressive
 roomwonderful=Wonderful
 roomunrivaled=Unrivaled
 roommood=My rooms furniture selection is <quality> (<value>)
-nohome=I am homeless (<value>)
+nohome=Я бездомний (<value>)
 foodsimple=Simple
 foodfine=Fine
 foodgourmet=Gourmet
@@ -2076,12 +2094,12 @@ moodsomewhathappy=Somewhat happy
 moodveryhappy=Very happy
 moodextremelyhappy=Extremely happy
 moodhappiness=I feel <happiness> (<value>)
-moodtalkto=Talk to the settler for more info
-moodhelp=Happy settlers gives better shop prices and take shorter work breaks
+moodtalkto=Поговоріть з поселенцем для отримання додаткової інформації
+moodhelp=Щасливі поселенці пропонують кращі ціни в магазинах і роблять коротші перерви в роботі
 onworkbreak=I am taking a break from work
 pawnbrokertip=Complete Ancient Vulture quest tier to recruit
 animalkeepertip=Kill the Void Wizard to recruit
-foundinvillagetip=Found in villages
+foundinvillagetip=Знаходяться в селах
 huntertip=Found hunting on non village islands
 magetip=Found in villages or in the dungeon
 piratetip=Kill the Pirate Captain
@@ -2091,35 +2109,36 @@ travelingarrive=§a<mob> is arriving at <settlement>
 travelingleave=§a<mob> is leaving <settlement>
 defname=<biome> settlement
 
-[buff]
+[buff] ???
 healthpotionfatigue=Health potion fatigue
 onfire=On fire
 ablaze=Ablaze
 brokenarmor=Broken armor
 teleportsickness=Teleport sickness
 voidsetcooldown=Void set cooldown
-dashcooldown=Dash cooldown
+dashcooldown=Перезарядка ривка
 lifelinecooldown=Recent lifeline
-spidervenom=Spider venom
+spidervenom=Отрута павука
 chilled=Chilled
 freezing=Freezing
 frostburn=Frostburn
 haunted=Haunted
-ivypoison=Ivy Poison
+ivypoison=Отрута плюща
 spidercharmpoison=Spider Charm Poison
-ninjasetbonus=Ninja set bonus
-summonedpet=Summoned pet
-summonedmount=Summoned mount
+ninjasetbonus=Бонус набору ніндзя
+summonedpet=Викликаний посіпака
+summonedmount=Викликаний транпорт
+// ???
 summonedmob=Summoned mob
-settlementflag=Settlement flag nearby
-campfire=Campfire nearby
-guardianshellcooldown=Guardian Shell cooldown
+settlementflag=Поруч прапор поселення
+campfire=Поруч багаття
+guardianshellcooldown=Щит вартового перезаряджається
 ancientfossilsetcooldown=Ancient Fossil set cooldown
 foodbuff=Food consumed
 fooddebuff=Bad food consumed
-hungry=Hungry
-starving=Starving
-stamina=Stamina
+hungry=Голодний
+starving=Вмираю з голоду
+stamina=Витривалість
 
 [bufftooltip]
 canceltip=Скасувати
@@ -2131,58 +2150,59 @@ campfiretip2=Позабойове відновлення здоров'я
 hungrytip=Немає відновлення здоров'я
 starvingtip=Сповільнено на 25%
 
-[biome]
+[biome] ???
 unknown=Unknown
-forest=Forest
-plains=Plains
-desert=Desert
-desertvillage=Desert Village
-swamp=Swamp
+forest=Ліс
+plains=Рівнини
+desert=Пустеля
+desertvillage=Пустельне поселення
+swamp=Болото
 snow=Snow
-snowvillage=Snow Village
-dungeon=Dungeon Entrance
-forestvillage=Forest Village
-piratevillage=Pirate Village
-temple=Temple
+snowvillage=Снігове поселення
+dungeon=Вхід у підземелля
+forestvillage=Лісове поселення
+piratevillage=Піратське поселення
+temple=Храм
 
 [expedition]
-completequests=Complete more settlement quests
-cave=Cave
-commonfishtrip=Common Fish
-swampcave=Swamp Cave
-snowcave=Snow Cave
-dungeon=Dungeon
-desertcave=Desert Cave
+completequests=Виконайте більше завдань поселення
+cave=Печера
+commonfishtrip=Звичайна риба
+swampcave=Болотна печера
+snowcave=Снігова печера
+dungeon=Підземелля
+desertcave=Пустельна печера
+// ???
 pirate=Pirate
-deepcave=Deep Cave
-deepsnowcave=Deep Snow Cave
-deepdesertcave=Deep Desert Cave
+deepcave=Глибока печера
+deepsnowcave=Глибока снігова печера
+deepdesertcave=Глибока пустельна печера
 
-[disconnect]
-chatmsg=<name> disconnected: <msg>
-unknown=Unknown reason
-internal=Internal error
+[disconnect] ???
+chatmsg=<name> відключився: <msg>
+unknown=Невідома причина
+internal=Внутрішня помилка
 kicked=Kicked: <reason>
 noreason=No reason
 invalidname=Invalid name
-clientresponding=Not responding
-serverstopped=Server stopped
-servererror=Server error
-clienterror=Client error
-wrongpassword=Wrong password
+clientresponding=Не відповідає
+serverstopped=Сервер зупинився
+servererror=Помилка серверу
+clienterror=Помилка клієнта
+wrongpassword=Неправильний пароль
 missingclient=Missing client
-banned=You are banned from this server
-wrongversion=Wrong client version
+banned=Ви забанені на цьому сервері
+wrongversion=Неправильна версія клієнта
 alreadyplaying=Already playing
-serverfull=Server full
+serverfull=Сервер заповнений
 nomessage=No message
 missingappearance=Missing appearance
-networkerror=Network error
-networkerrormsg=Network error: <msg>
+networkerror=Помилка мережі
+networkerrormsg=Помилка мережі: <msg>
 statedesync=Game state desync
 notresponding=Have not received updates in <seconds> seconds
-respondingdc=Server did not respond
-modsmismatch=Mods did not match
+respondingdc=Сервер не відповідає
+modsmismatch=Моди не співпадають
 
 [deaths]
 default=<victim> died
@@ -2333,48 +2353,53 @@ play_24h=Згаяний час
 play_24h_desc=Грайте в гру 24 години
 
 [loading]
-foundmods=Found <mods> mod(s)
-loadedmods=Loaded <mods> mod(s)
-loadingmods=Loading mods
+foundmods=Знайдено <mods> мод(ів)
+loadedmods=Завантажено <mods> мод(ів)
+loadingmods=Завантаження модів
 patchmods=Applying mod patches
-preinitmods=Pre initializing mods
-initmods=Initializing mods
-initmodsres=Initializing mod resources
+preinitmods=Попередня ініціалізація модів
+initmods=Ініціалізація модів
+initmodsres=Ініціалізація ресурсів мода
 postinitmods=Post initializing mods
-biomes=Loading biomes
-buffs=Loading buffs
-items=Loading items
-leveldata=Loading level data
-levelevents=Loading level events
-mobs=Loading mobs
-objects=Loading objects
+biomes=Завантаження біомів
+buffs=Завантаження підсилень
+items=Завантаження предметів
+leveldata=Завантаження даних рівня
+levelevents=Завантаження подій рівня
+// ???
+mobs=Завантаження істот
+objects=Завантаження об'єктів
+// ???
 pickups=Loading pickups
-projectiles=Loading projectiles
-textures=Loading textures
-sound=Loading sound
-shaders=Loading shaders
-commands=Loading commands
-tiles=Loading tiles
-worlddata=Loading world data
-worldevents=Loading world events
-finishing=Finishing up
+projectiles=Заряджання снарядів
+textures=Завантаження текстур
+sound=Завантаження звуків
+shaders=Завантаження шейдерів
+commands=Завантаження команд
+// ???
+tiles=Завантаження плиток
+worlddata=Завантаження даних світу
+worldevents=Завантаження подій світу
+finishing=Закінчення
+// ???
 mapshot=Taking mapshot
-loading=Loading
-connecting=Connecting
+loading=Завантаження
+connecting=Підключення
+// ???
 connectrecipes=Loading recipes <percent>%
-connectstats=Loading player stats
-connectworld=Loading world
-connectlevel=Loading level
-connectplayers=Loading players <percent>%
-connectclient=Loading client
-connectquests=Loading quests
-connectmap=Loading map <percent>%
+connectstats=Завантаження статистики гравця
+connectworld=Завантаження світу
+connectlevel=Завантаження рівня
+connectplayers=Завантаження гравців <percent>%
+connectclient=Завантаження клієнта
+connectquests=Завантаження квестів
+connectmap=Завантаження карти <percent>%
 
 [jobs]
-settlerincapable=Settler is incapable of this job
+settlerincapable=Поселенець неспроможний виконувати цю роботу
 jobrange=Work range: <range> tiles
-incpriority=Increase priority
-decpriority=Decrease priority
+incpriority=Підвищити пріоритет
+decpriority=Знизити пріоритет
 haulingname=Hauling
 haulingtip=Moving and picking up items
 craftingname=Crafting
@@ -3294,7 +3319,7 @@ crafted_items=Створено предметів
 crates_broken=Розбито ящиків
 
 normal_damage=Звичайна шкода
-true_damage=Справжня шкода
+true_damage=Правдива шкода
 melee_damage=Шкода в ближньому бою
 ranged_damage=Шкода в дальньому бою
 magic_damage=Магічна шкода
