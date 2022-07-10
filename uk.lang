@@ -32,7 +32,7 @@ mudtile=Багно
 dirttile=Грунт
 rocktile=Камінь
 dungeonfloor=Підлога підземелля
-farmland=Сільськогосподарські угіддя
+farmland=Грядки
 woodfloor=Дерев'яна підлога
 pinefloor=Соснова підлога
 palmfloor=Пальмова підлога
@@ -373,7 +373,7 @@ tungstenore=Вольфрамова руда
 // ???
 lifequartzore=Кварц життя 
 glacialore=Крижана руда
-ancientfossilore=Стародавня скам'яніла руда
+ancientfossilore=Стародавня руда
 
 // Misc
 grass=Трава
@@ -489,9 +489,8 @@ tungstenore=Вольфрамова руда
 tungstenbar=Вольфрамовий злиток
 glacialore=Крижана руда
 glacialbar=Крижаний злиток
-ancientfossilore=Стародавня скам'яніла руда
-/ ???
-ancientfossilbar=Злиток стародавніх скам'янілостей
+ancientfossilore=Стародавня руда
+ancientfossilbar=Стародавній злиток
 obsidian=Обсидіан
 cavespidergland=Залоза печерного павука
 voidshard=Осколок пустоти
@@ -730,8 +729,7 @@ travelercloak=Плащ мандрівника
 explorercloak=Плащ дослідника
 mesmertablet=Месмерова дощечка
 inducingamulet=Амулет стимулу
-// ???
-lifeline=Друге дихання
+lifeline=Рятівник
 frozensoul=Заморожена душа
 magicfoci=Магічна основа
 rangefoci=Стрілецька основа
@@ -824,10 +822,9 @@ glacialcirclet=Крижана діадема
 glacialhelmet=Крижаний шолом
 glacialchestplate=Крижаний нагрудник
 glacialboots=Крижані чоботи
-// ???
-ancientfossilhelmet=Ancient Fossil Helmet
-ancientfossilchestplate=Ancient Fossil Chestplate
-ancientfossilboots=Ancient Fossil  Boots
+ancientfossilhelmet=Стародавній шолом
+ancientfossilchestplate=Стародавній нагрудник
+ancientfossilboots=Стародавні чоботи
 
 // Cosmetic Armor // ??? сорочка = вбранння або одяг
 shoes=Черевики
@@ -1418,6 +1415,7 @@ cuttertip=Використовується для видалення логіч�
 wrenchtip=Використовується для розміщення логічних елементів і дротів
 wrenchammo=Доступно дроту: <value>
 enchantslot=Місце для зачарування
+// ???
 enchantfullstack=Need full stack to enchant
 materialslot=Матеріали
 trashslot=Смітник
@@ -1626,9 +1624,11 @@ used=Уживана
 [buffmodifiers]
 currentmodifiers=Поточні модифікатори:
 nomodifiers=Немає активних модифікаторів
-// ??? максимум і мінімум
-limitmax=До <modifier>
-limitmin=До <modifier>
+// ??? максимум і мінімум // без приставки
+// limitmax=До <modifier>
+// limitmin=До <modifier>
+limitmax=<modifier>
+limitmin=<modifier>
 
 damage=<mod>% шкоди
 meleedamage=<mod>% шкоди ближнього бою
@@ -1751,38 +1751,38 @@ spider=Павук
 mouse=Миша
 
 // Humans
-human=Villager
-humanname=<name> the Villager
-farmerhuman=Farmer
-farmerhumanname=<name> the Farmer
-blacksmithhuman=Blacksmith
-blacksmithhumanname=<name> the Blacksmith
-guardhuman=Guard
-guardhumanname=<name> the Guard
-magehuman=Mage
-magehumanname=<name> the Mage
-gunsmithhuman=Gunsmith
-gunsmithhumanname=<name> the Gunsmith
-alchemisthuman=Alchemist
-alchemisthumanname=<name> the Alchemist
-hunterhuman=Hunter
-hunterhumanname=<name> the Hunter
-elderhuman=Elder
-elderhumanname=<name> the Elder
-anglerhuman=Angler
-anglerhumanname=<name> the Angler
-animalkeeperhuman=Animal keeper
-animalkeeperhumanname=<name> the Animal keeper
-pawnbrokerhuman=Pawnbroker
-pawnbrokerhumanname=<name> the Pawnbroker
-stylisthuman=Stylist
-stylisthumanname=<name> the Stylist
-piratehuman=Broken Pirate
-piratehumanname=<name> the Broken Pirate
-explorerhuman=Explorer
-explorerhumanname=<name> the Explorer
-travelingmerchant=Traveling merchant
-travelingmerchantname=<name> the Traveling Merchant
+human=Поселенець
+humanname=Поселенець <name>
+farmerhuman=Фермер
+farmerhumanname=Фермер <name>
+blacksmithhuman=Коваль
+blacksmithhumanname=Коваль <name>
+guardhuman=Сторож
+guardhumanname=Сторожі <name>
+magehuman=Маг
+magehumanname=Маг <name>
+gunsmithhuman=Зброяр
+gunsmithhumanname=Зброяр <name>
+alchemisthuman=Алхімік
+alchemisthumanname=Алхімік <name>
+hunterhuman=Мисливець
+hunterhumanname=Мисливець <name>
+elderhuman=Старійшина
+elderhumanname=Старійшина <name>
+anglerhuman=Рибалка
+anglerhumanname=Рибалка <name>
+animalkeeperhuman=Скотар
+animalkeeperhumanname=Скотар <name>
+pawnbrokerhuman=Лихвар
+pawnbrokerhumanname=Лихвар <name>
+stylisthuman=Стиліст
+stylisthumanname=Стиліст <name>
+piratehuman=Розгромлений пірат
+piratehumanname=Розгромлений пірат <name>
+explorerhuman=Дослідник
+explorerhumanname=Дослідник <name>
+travelingmerchant=Мандрівний торговець
+travelingmerchantname=Мандрівний торговець <name>
 
 // Hostile
 zombie=Зомбі
@@ -1795,13 +1795,11 @@ giantcavespider=Гігантський печерний павук
 blackcavespider=Чорний печерний павук
 swampcavespider=Болотний печерний павук
 cavemole=Печерний кріт
-// ???
-frozendwarf=Frozen Dwarf
-frostsentry=Frost Sentry
+frozendwarf=Заморожений гном
+frostsentry=Морозний вартовий
 swampzombie=Болотний зомбі
 swampslime=Болотний слизовик
-// ???
-swampshooter=Swamp Shooter
+swampshooter=Болотний стрілець
 enchantedzombie=Зачарований зомбі
 enchantedzombiearcher=Зачарований зомбі-лучник
 enchantedcrawlingzombie=Зачарований повзаючий зомбі
@@ -1812,21 +1810,20 @@ sandspirit=Дух піску
 jackal=Шакал
 skeleton=Скелет
 skeletonthrower=Скелет-метальник
-// ???
-deepcavespirit=Дух глибокої печери
+deepcavespirit=Дух глибин
 skeletonminer=Скелет-шахтар
 ninja=Ніндзя
 snowwolf=Сніговий вовк
-// ???
-cryoflake=Cryo Flake
+// ??? cryoflake=Злосніг
+// ??? cryoflake=Морозне лезо
+cryoflake=Сніжинка
 sandworm=Піщаний черв'як
 desertcrawler=Пустельний повзун
 ancientskeleton=Стародавній скелет
 ancientskeletonthrower=Стародавній скелет-метальник
 ancientarmoredskeleton=Стародавній броньований скелет
 ancientskeletonmage=Стародавній скелет-маг
-// ???
-humanraider=Raider
+humanraider=Грабіжник
 
 // Pets/spawned
 spawnedname=<player>'s <mob>
@@ -1837,46 +1834,43 @@ steelboat=Сталевий човен
 petwalkingtorch=Ходячий факел
 jumpingball=Пострибунчик
 hoverboard=Ховерборд
-// ???
-babyzombie=Baby Zombie
-babyzombiearcher=Baby Zombie Archer
-babyspider=Baby Spider
+babyzombie=Зомбенятко
+babyzombiearcher=Зомбенятко-лучник
+babyspider=Павучок
 frostpiercer=Морозний пронизувач
-// ???
-babysnowman=Baby Snowman
+babysnowman=Сніговичок
 playerpoisonslime=Отруйний слизовик
 playervulturehatchling=Дитинча стерв'ятника
 playerreaperspirit=Дух жнеця
-// ???
-playercryoflake=Cryo Flake
-babyskeleton=Baby Skeleton
-babyskeletonmage=Baby Skeleton Mage
+playercryoflake=Сніжинка
+babyskeleton=Скелетик
+babyskeletonmage=Маг-скелетик
 
 // Bosses/minions ???
-evilsprotector=Evil's Protector
-evilsportal=Evil's Portal
-portalminion=Portal Minion
-queenspider=Queen Spider
-spiderhatchling=Spider Hatchling
-voidwizard=Void Wizard
-piratecaptain=Pirate Captain
-piraterecruit=Pirate Recruit
-pirateparrot=Pirate Parrot
-ancientvulture=Ancient Vulture
-ancientvultureegg=Ancient Vulture Egg
-vulturehatchling=Vulture Hatchling
-reaper=Reaper
-reaperspiritportal=Reaper Spirit Portal
-reaperspirit=Reaper Spirit
-cryoqueen=Cryo Queen
-swampguardian=Swamp Guardian
-swampguardianbody=Swamp Guardian body
-swampguardiantail=Swamp Guardian tail
-sage=Sage
-grit=Grit
-sageandgrit=Sage and Grit
-fallenwizard=Fallen Wizard
-fallendragon=Fallen Dragon
+evilsprotector=Хранитель зла
+evilsportal=Портал зла
+portalminion=Посіпака порталу
+queenspider=Королева павуків
+spiderhatchling=Дитинча павука
+voidwizard=Чаклун пустоти
+piratecaptain=Капітан піратів
+piraterecruit=Матрос
+pirateparrot=Піратський папуга
+ancientvulture=Древній стерв'ятник
+ancientvultureegg=Яйце древнього стерв'ятника
+vulturehatchling=Дитинча стерв'ятника
+reaper=Жнець
+reaperspiritportal=Портал духів Жнеця
+reaperspirit=Дух Жнеця
+cryoqueen=Снігова королева
+swampguardian=Сторож болота
+swampguardianbody=Тіло болотного сторожа
+swampguardiantail=Хвіст болотного сторожа
+sage=Мудрість
+grit=Мужність
+sageandgrit=Мудрість і Мужність
+fallenwizard=Занепалий чарівник
+fallendragon=Занепалий дракон
 
 // Misc
 woodboat=Дерев'яний човен
@@ -1893,44 +1887,38 @@ humanangry4=Для чого ти це зробив?
 humanangry5=Чому ти це зробив?
 humanangry6=Що я тобі зробив?
 
-// ???
 humanangryactive1=Я тут лише для того, щоб допомогти тобі!
 humanangryactive2=Я намагаюся щось робити тут!
 humanangryactive3=Припини це, або мені доведеться вбити тебе
 
-humanattack1=Сторожі, допоможіть!
+humanattack1=Варта, допоможіть!
 humanattack2=Ти про це пошкодуєш
 humanattack3=Тепер ти мене розлютив!
 humanattack4=Це був твій останній шанс!
-// ???
-humanattack5=Сторожі! Між нами є ворог!
+humanattack5=Варта! Між нами порушник!
 humanattack6=Я збираюся покінчити з тобою!
 
 humantalk1=Що це за запах навколо?
 humantalk2=Іноді все, що я хочу робити, це лежати в ліжку
-// ???
-humantalk3=Ви коли-небудь дивилися на зірки і дивувалися?
+humantalk3=Ти коли-небудь дивився на зірки і задумувався?
 humantalk4=Я часто думаю про важливі питання в житті
 humantalk5=Чому ми всі тут? Подумайте, це очевидно!
 
 alchemisttalk1=Я обожнюю гриби
 alchemisttalk2=Мої хімікати ніколи не вибухнуть, запевняю вас
-alchemisttalk3=Хочеш кайфанути?
+alchemisttalk3=Хочеш розслабитись?
 alchemisttalk4=Що? Ні, я не курив трави!
 alchemisttalk5=Ха-ха! Чому все, що ти кажеш, таке смішне!?
 
 anglertalk1=Риболовля - це любов, риболовля - це життя
-// ???
 anglertalk2=Колись ви побачите, що таке задоволення від риболовлі
 anglertalk3=У свій час я бачив багато дивних риб
 anglertalk4=Мені подобається проводити день, спілкуючись зі своєю рибою
 anglertalk5=Наживка необхідна для риболовлі!
-// ???
-anglerspecial=Did <stylist> comment about my style?
+anglerspecial=Що <stylist> думає про мій вигляд?
 
-akeepertalk1=I have been collecting just for you!
-// ???
-akeepertalk2=You know what they say: Gotta catch them all!
+akeepertalk1=Я збирав це спеціально для тебе!
+akeepertalk2=Знаєш як кажуть: Спіймай їх усіх!
 akeepertalk3=У мене є одні з найекзотичніших тварин, яких ви коли-небудь бачите!
 akeepertalk4=Мої домашні улюбленці займають дуже мало часу та догляду
 akeepertalk5=Домашня тварина може бути супутником на все життя!
@@ -1943,30 +1931,27 @@ blacksmithtalk3=Твій меч потрібно нагострити?
 blacksmithtalk4=Подивись на мій товар!
 blacksmithspecial=Не продавай свої злитки <gunsmith>! Він неправильно їх використовує!
 
-eldertalk1=You should always go explore more than you already do
+eldertalk1=Тобі завжди варто досліджувати незнайомі місця
 eldertalk2=Старі байки кажуть, що на деяких островах є підземелля зі скарбами
 eldertalk3=Я бачу потенціал у такому молодому авантюристу, як ти
 eldertalk4=Під землею ви знайдете одні з найкращих руд у світі
-// ???
 eldertalk5=Я лише раз бачив демона в своєму житті, на щастя, я вийшов живим
 eldertalk6=Чим я можу тобі допомогти?
 
-farmertalk1=Ти бачив мого сина?
-farmertalk2=Ти хочеш бути схожим на мене?
+farmertalk1=Ти, бачив мого сина?
+farmertalk2=Ти, теж хочеш бути фермером?
 farmertalk3=Тебе цікавить сільське господарство?
 farmertalk4=Мені потрібен хтось, хто займеться фермою, коли я постарію
 
 gunsmithtalk1=Не забувайте тренуватися перед полюванням
 gunsmithtalk2=Зброя не вбиває людей, люди вбивають людей
-// ???
 gunsmithtalk3=У мене найсмертоносніша зброя у місті!
 gunsmithtalk4=I swear there is nothing wrong with these goods
 gunsmithspecial1=Не продавай свої злитки <blacksmith>!  Він неправильно їх використовує!
 gunsmithspecial2=<hunter> божевільний, немає нічого кращого за зброю!
 
 huntertalk1=Немає нічого, з чим би не впоралися лук і стріли
-// ???
-huntertalk2=The core component of a bow is the me
+huntertalk2=Основним компонентом в луці є я
 huntertalk3=Я покажу тобі трюк, якщо ти покладеш яблуко собі на голову
 huntertalk4=Ти багатий чи бідний?
 huntertalk5=Я тобі когось нагадую?
@@ -1975,8 +1960,7 @@ huntertalkspecial=<gunsmith> божевільний, немає нічого к�
 magetalk1=Тебе цікавить магія?
 magetalk2=Можливо у тобі є потенціал
 magetalk3=Є магія, про яку заборонено говорити
-// ???
-magetalk4=Не існує такого магазину, як мій!
+magetalk4=Немає такого магазину, як в мене!
 magetalk5=Для потужної зброї потрібні чари!
 magetalk6=Чари можуть значно збільшити характеристики спорядження
 magetalk7=Я можу допомогти вам зачарувати речі або ви можете подивитись, що я продаю!
@@ -1984,15 +1968,11 @@ magetalk7=Я можу допомогти вам зачарувати речі а
 piratetalk1=Я іноді думаю про море і сумую за ним
 piratetalk2=У тебе є запасний ром?
 piratetalk3=Ти вже знайшов, якийсь скарб?
-// ???
-piratetalk4=I have lost my lock, do you have it?
 piratetalk4=Я загубив свій пістоль, можливо він у тебе?
-// ???
-piratetalk5=My gunpowder is the best you'll ever find!
+piratetalk5=Кращого пороху ніж у мене ти не знайдеш!
 piratetalk6=Піратський спосіб життя мені все одно не подобався
-// ???
 piratespecial1=Дякую, що не змусив мене пройти по дошці!
-piratespecial2=I hope I didn't hurt ya before!
+piratespecial2=Сподіваюсь, я не нашкодив тобі раніше!
 
 stylisttalk1=Дехто говорить, що я виглядаю так, неначе я з мультфільму?
 stylisttalk2=Відростити волосся — це не суперсила!
@@ -2001,17 +1981,15 @@ stylisttalk4=Іноді новий комплект джинсів вирішу�
 stylisttalk5=У вихідні я працюю також!
 stylisttalk6=Мій магазин точно тебе вразить!
 stylisttalk7=Потрібна нова зачіска або просто хочеш купити, якесь вбрання?
-stylistspecial=Я не можу повірити, що <angler> вибрав такий стиль!
+stylistspecial=Я не можу повірити, що <angler> так одягається!
 
 tmerchanttalk1=Мої вироби такі ж екзотичні, як і ви!
 tmerchanttalk2=Що? Я лисію?
 tmerchanttalk3=Подорожувати – це весело та корисно!
-// ???
-tmerchanttalk4=Looking to get into the business?
+tmerchanttalk4=Не хочеш зайнятись торгівлею?
 tmerchanttalk5=Мені варто взяти в’ючного мула для всіх цих речей
 tmerchanttalk6=Тепер ти знаєш, чому мій рюкзак такий великий
-// ???
-tmerchanttalk7=I've been many places, this one is decent
+tmerchanttalk7=Я був у багатьох місцях, і це місце непогане
 
 pawnbrokertalk1=Я надам тобі справедливу ціну!
 pawnbrokertalk2=Знаєте, я не збираюся скупляти усе підряд
@@ -2021,16 +1999,14 @@ pawnbrokertalk5=Я не буду тебе обманювати, обіцяю!
 pawnbrokertalk6=Так, я знаю, що виглядаю ошатно!
 pawnbrokertalk7=У тебе є чашка чаю?
 
-// ???
-tpawnbrokertalk1=Has the merchant been here yet? I just met him out seas
-tpawnbrokertalk2=You've been waiting for me? That's nice
+tpawnbrokertalk1=Торговець сюди уже приходив? Ми недавно зустрілись у морі
+tpawnbrokertalk2=Ти чекав на мене? Приємно
 
-// ???
 explorertalk1=Тропічні острови мені подобаються найбільше
 explorertalk2=Інколи я бував у небезпечних сиуаціях
 explorertalk3=Тут нудно, я хочу кудись піти!
 explorertalk4=З хорошою парою чобіт можна пройти довгий шлях
-explorertalk5=I wonder if I'll ever find one of those temples
+explorertalk5=Цікаво, чи знайду я колись один із тих храмів
 explorertalk6=Нагадай мені принести воду, перш ніж я піду
 explorertalk7=Скажемо чесно, вижити там досить легко
 explorertalk8=Будь обережним з пастками під час дослідження
@@ -2043,106 +2019,106 @@ pirateattack5=Ми нап’ємось рому, коли з тобою буде
 pirateattack6=Моя шабля порубає тебе на шматочки!
 pirateattack7=Ти пошкодуєш про те, що ступив на нашу землю!
 
-// ???
-pirateescape1=Ya scared and be runnin!
+pirateescape1=Ти наляканий і тікатимеш!
 pirateescape2=Тут я з тобою закінчив!
 pirateescape3=Можливо, наступного разу, хлопче!
 
 [settlement] ???
 notsettler=Не вдалося знайти поселенця
-showreqs=Hold shift to see room requirements
-outsideerr=Room is outside
-notopenerr=Room is not an open area
+showreqs=Нажміть і утримуйте SHIFT щоб побачити вимоги до кімнати
+outsideerr=Стіни кімнати не завершені
+notopenerr=В кімнаті немає вільного місця
 existserr=Кімната вже існує
 doorerr=У кімнаті немає дверей
 doorreq=Потрібні хоча б одні двері
-floorerr=Room doesn't have a complete floor
-floorreq=Complete valid floor tiles
+floorerr=У кімнаті незавершена підлога
+// ???
+floorreq=Завершіть підлогу правильними плитками
 lighterr=У кімнаті немає світла
 lightreq=Повинно бути принаймні одне джерело світла
 bederr=У кімнаті немає ліжка
 bedreq=Повинно бути принаймні одне ліжко
 roomtoosmall=Кімната занадто мала
-roomsizereq=Room size at least <size> tiles
-sizebaby=Baby
-sizetiny=Tiny
-sizesmall=Small
-sizemediocre=Mediocre
-sizedecent=Decent
-sizelarge=Large
-sizehuge=Huge
-sizeenormous=Enormous
-sizemood=I live in a <size> sized room (<value>)
-roomplain=Plain
-roomdull=Dull
-roomsimple=Simple
-roomnormal=Normal
-roomgood=Good
-roomimpressive=Impressive
-roomwonderful=Wonderful
-roomunrivaled=Unrivaled
-roommood=My rooms furniture selection is <quality> (<value>)
+roomsizereq=Розмір кімнати повинен бути хоча б <size>
+sizebaby=дитячого
+sizetiny=крихітного
+sizesmall=малого
+sizemediocre=середнього
+sizedecent=пристойного
+sizelarge=великого
+sizehuge=величезного
+sizeenormous=колосального
+sizemood=Я живу у кімнаті <size> розміру (<value>)
+roomplain=бідним
+roomdull=одноманітним
+roomsimple=простим
+roomnormal=нормальним
+roomgood=хорошим
+roomimpressive=вражаючим
+roomwonderful=прекрасним
+roomunrivaled=неперевершеним
+roommood=Вибір меблів для моєї кімнати є <quality> (<value>)
 nohome=Я бездомний (<value>)
-foodsimple=Simple
-foodfine=Fine
-foodgourmet=Gourmet
-foodmood=I ate a <quality> meal (<value>)
-nofoodmood=I have not eaten recently (<value>)
-moodveryunhappy=Very unhappy
-moodunhappy=Unhappy
-moodsomewhathappy=Somewhat happy
-moodveryhappy=Very happy
-moodextremelyhappy=Extremely happy
-moodhappiness=I feel <happiness> (<value>)
+foodsimple=просту
+foodfine=смачну
+foodgourmet=вишукану
+foodmood=Я поїв <quality> їжу (<value>)
+nofoodmood=Я не їв останнім часом (<value>)
+moodveryunhappy=відчай
+moodunhappy=смуток
+moodsomewhathappy=спокій
+moodveryhappy=задоволення
+moodextremelyhappy=щастя
+moodhappiness=Я відчуваю <happiness> (<value>)
 moodtalkto=Поговоріть з поселенцем для отримання додаткової інформації
 moodhelp=Щасливі поселенці пропонують кращі ціни в магазинах і роблять коротші перерви в роботі
-onworkbreak=I am taking a break from work
-pawnbrokertip=Complete Ancient Vulture quest tier to recruit
-animalkeepertip=Kill the Void Wizard to recruit
+onworkbreak=Я перепочину між роботою
+pawnbrokertip=Виконайте завдання "Стародавній стерв'ятник", щоб найняти
+animalkeepertip=Переможіть Чаклуна пустоти, щоб найняти
 foundinvillagetip=Знаходяться в селах
-huntertip=Found hunting on non village islands
-magetip=Found in villages or in the dungeon
-piratetip=Kill the Pirate Captain
-stylisttip=Found in villages or pirate island
-explorertip=Found in desert caves after Void Wizard
-travelingarrive=§a<mob> is arriving at <settlement>
-travelingleave=§a<mob> is leaving <settlement>
-defname=<biome> settlement
+huntertip=Можна знайти полюючим на незаселених островах
+magetip=Можна знайти в селах або в підземеллях
+piratetip=Переможіть Капітана піратів
+stylisttip=Можна знайти в селах або на піратських островах
+explorertip=Можна знайти в пустельних печерах після перемоги над Чаклуном пустоти
+travelingarrive=§a<mob> прибув до <settlement>
+travelingleave=§a<mob> покинув <settlement>
+defname=Поселення, <biome>
 
-[buff] ???
-healthpotionfatigue=Health potion fatigue
-onfire=On fire
-ablaze=Ablaze
-brokenarmor=Broken armor
-teleportsickness=Teleport sickness
-voidsetcooldown=Void set cooldown
+[buff]
+healthpotionfatigue=Перенасичення зіллям лікування
+onfire=У полум’ї
+ablaze=У пекельному вогні
+brokenarmor=Розбита броня
+teleportsickness=Просторова нестабільність
+voidsetcooldown=Перезарядка набору Пустоти
 dashcooldown=Перезарядка ривка
-lifelinecooldown=Recent lifeline
+lifelinecooldown=Перезарядка Рятівника
 spidervenom=Отрута павука
-chilled=Chilled
-freezing=Freezing
-frostburn=Frostburn
-haunted=Haunted
-ivypoison=Отрута плюща
-spidercharmpoison=Spider Charm Poison
-ninjasetbonus=Бонус набору ніндзя
-summonedpet=Викликаний посіпака
-summonedmount=Викликаний транпорт
+chilled=Охолодження
+freezing=Замерзання
+frostburn=Обмороження
 // ???
-summonedmob=Summoned mob
+haunted=Прокляття
+ivypoison=Отрута плюща
+spidercharmpoison=Отрута Павучого амулету
+ninjasetbonus=Бонус набору ніндзя
+summonedpet=Викликаний улюбленець
+summonedmount=Викликаний транпорт
+summonedmob=Викликаний посіпака
 settlementflag=Поруч прапор поселення
 campfire=Поруч багаття
-guardianshellcooldown=Щит вартового перезаряджається
-ancientfossilsetcooldown=Ancient Fossil set cooldown
-foodbuff=Food consumed
-fooddebuff=Bad food consumed
+guardianshellcooldown=Перезарядка Щита вартового
+ancientfossilsetcooldown=Перезарядка Стародавнього набору
+foodbuff=Спожито їжу
+fooddebuff=Вжито зіпсовану їжу
 hungry=Голодний
 starving=Вмираю з голоду
 stamina=Витривалість
 
 [bufftooltip]
 canceltip=Скасувати
-nomodifiers=§9Немає модифікаторів, наданих баффом
+nomodifiers=§9Немає модифікаторів, наданих підсиленням
 teleportsicknesstip=Неможливо знову телепортуватися
 settlementflagtip=Відродження мобів значно зменшено
 campfiretip1=Відродження мобів зменшено
@@ -2150,57 +2126,58 @@ campfiretip2=Позабойове відновлення здоров'я
 hungrytip=Немає відновлення здоров'я
 starvingtip=Сповільнено на 25%
 
-[biome] ???
-unknown=Unknown
+[biome]
+unknown=Невідомо
 forest=Ліс
 plains=Рівнини
 desert=Пустеля
-desertvillage=Пустельне поселення
+desertvillage=Пустельне містечко
 swamp=Болото
-snow=Snow
-snowvillage=Снігове поселення
-dungeon=Вхід у підземелля
-forestvillage=Лісове поселення
-piratevillage=Піратське поселення
+snow=Засніжений ліс
+snowvillage=Засніжене містечко
+dungeon=Підземелля
+forestvillage=Лісове містечко
+piratevillage=Піратське містечко
 temple=Храм
 
 [expedition]
 completequests=Виконайте більше завдань поселення
-cave=Печера
-commonfishtrip=Звичайна риба
-swampcave=Болотна печера
-snowcave=Снігова печера
-dungeon=Підземелля
-desertcave=Пустельна печера
-// ???
-pirate=Pirate
-deepcave=Глибока печера
-deepsnowcave=Глибока снігова печера
-deepdesertcave=Глибока пустельна печера
+cave=В печеру
+commonfishtrip=Звичайну рибу
+swampcave=В болотну печеру
+snowcave=В снігову печеру
+dungeon=У підземелля
+desertcave=В пустельну печеру
+pirate=На піратів
+deepcave=В глибоку печеру
+deepsnowcave=В глибоку снігову печеру
+deepdesertcave=В глибоку пустельну печеру
 
-[disconnect] ???
+[disconnect]
 chatmsg=<name> відключився: <msg>
 unknown=Невідома причина
 internal=Внутрішня помилка
-kicked=Kicked: <reason>
-noreason=No reason
-invalidname=Invalid name
+kicked=Вигнаний: <reason>
+noreason=Без причини
+invalidname=Неприпустиме ім’я
 clientresponding=Не відповідає
 serverstopped=Сервер зупинився
 servererror=Помилка серверу
 clienterror=Помилка клієнта
 wrongpassword=Неправильний пароль
-missingclient=Missing client
+missingclient=Відсутній клієнт
 banned=Ви забанені на цьому сервері
 wrongversion=Неправильна версія клієнта
-alreadyplaying=Already playing
+alreadyplaying=Вже в грі
 serverfull=Сервер заповнений
-nomessage=No message
-missingappearance=Missing appearance
+// ???
+nomessage=Немає повідомлення
+// ???
+missingappearance=Відсутній спрайт
 networkerror=Помилка мережі
 networkerrormsg=Помилка мережі: <msg>
-statedesync=Game state desync
-notresponding=Have not received updates in <seconds> seconds
+statedesync=Десинхронізація стану гри
+notresponding=Не отримував оновлень протягом <seconds> секунд
 respondingdc=Сервер не відповідає
 modsmismatch=Моди не співпадають
 
@@ -2274,7 +2251,7 @@ cavespider1=<victim> got torn up by <attacker>
 cavespider2=<attacker>'s fangs was too big for <victim>
 cavespider3=<attacker> ate <victim> alive
 
-[tech]
+[tech] ???
 all=All
 inventory=Inventory
 workstation=Workstation
@@ -2356,37 +2333,32 @@ play_24h_desc=Грайте в гру 24 години
 foundmods=Знайдено <mods> мод(ів)
 loadedmods=Завантажено <mods> мод(ів)
 loadingmods=Завантаження модів
-patchmods=Applying mod patches
+patchmods=Застосування оновлення модів
 preinitmods=Попередня ініціалізація модів
 initmods=Ініціалізація модів
 initmodsres=Ініціалізація ресурсів мода
-postinitmods=Post initializing mods
+postinitmods=Кінцева ініціалізація модів
 biomes=Завантаження біомів
 buffs=Завантаження підсилень
 items=Завантаження предметів
 leveldata=Завантаження даних рівня
 levelevents=Завантаження подій рівня
-// ???
 mobs=Завантаження істот
 objects=Завантаження об'єктів
-// ???
-pickups=Loading pickups
+pickups=Завантаження розкиданих предметів
 projectiles=Заряджання снарядів
 textures=Завантаження текстур
 sound=Завантаження звуків
 shaders=Завантаження шейдерів
 commands=Завантаження команд
-// ???
 tiles=Завантаження плиток
 worlddata=Завантаження даних світу
 worldevents=Завантаження подій світу
 finishing=Закінчення
-// ???
-mapshot=Taking mapshot
+mapshot=Промалювання мапи
 loading=Завантаження
 connecting=Підключення
-// ???
-connectrecipes=Loading recipes <percent>%
+connectrecipes=Завантаження креслення <percent>%
 connectstats=Завантаження статистики гравця
 connectworld=Завантаження світу
 connectlevel=Завантаження рівня
@@ -2397,49 +2369,51 @@ connectmap=Завантаження карти <percent>%
 
 [jobs]
 settlerincapable=Поселенець неспроможний виконувати цю роботу
-jobrange=Work range: <range> tiles
+jobrange=Діапазон роботи: <range>
 incpriority=Підвищити пріоритет
 decpriority=Знизити пріоритет
-haulingname=Hauling
-haulingtip=Moving and picking up items
-craftingname=Crafting
-craftingtip=Crafting recipes at workstations
-forestryname=Forestry
-forestrytip=Chopping down and planting trees in forestry zones
-husbandryname=Husbandry
-husbandrytip=Milking, shearing and slaughtering animals in husbandry zones
-fishingname=Fishing
-farmingname=Farming
-farmingtip=Harvesting and planting crops, berry bushes and fruit trees
-fertilizename=Fertilize
-fertilizetip=Fertilize crops in fertilize zones
-huntingname=Hunting
-huntingtip=Hunting critters for food
+haulingname=Збиральництво
+haulingtip=Підбирання і переміщення предметів
+craftingname=Майстрування
+craftingtip=Майстрування з кресленнями за верстаком
+forestryname=Лісівництво
+forestrytip=Вирубка та посадка дерев в лісництві
+husbandryname=Скотарство
+husbandrytip=Доїння, стрижка та забій тварин у господарстві
+fishingname=Риболовля
+farmingname=Садівництво
+farmingtip=Збирання та посадка сільськогосподарських культур, ягідних кущів та плодових дерев
+fertilizename=Землеробство
+fertilizetip=Удобрювання посівів
+huntingname=Полювання
+huntingtip=Полювання на звірин заради їжі
 
 [activities]
-unknown=Unknown
-idle=Idle
-onbreak=Taking a break
-inventoryfull=Has a full inventory
-hunting=Hunting <target>
-slaughtering=Slaughtering <target>
-pickingup=Picking up <item> from <target>
+unknown=Невідомо
+idle=Бездіяльність
+onbreak=Взяв перерив
+inventoryfull=Має повний інвентар
+hunting=Полює на ціль: <target>
+slaughtering=Забиває ціль: <target>
+// ???
+pickingup=Підіймає предмет: <item> (<target>)
 theground=the ground
 droppingoff=Dropping off <item> at <target>
 droppingoffinv=Dropping off inventory
 hauling=Hauling <item> from <target>
-harvesting=Harvesting <target>
-consuming=Consuming <item>
-planting=Planting <item>
-milking=Milking <target>
-shearing=Shearing <target>
+harvesting=Збирання врожаю: <target>
+consuming=Вживає: <item>
+planting=Садить: <item>
+milking=Доїть: <target>
+shearing=Стриже: <target>
+// ???
 crafting=Crafting <item> at <target>
-fishing=Fishing
-fertilizing=Fertilizing <target>
-chopping=Chopping down <target>
-attacking=Attacking <target>
-resting=Resting
-onmission=On a mission
+fishing=Рибалить
+fertilizing=Удобрює: <target>
+chopping=Зрубує: <target>
+attacking=Атакує: <target>
+resting=Відпочиває
+onmission=На завданні
 
 
 [ui]
@@ -2468,7 +2442,7 @@ filtercraft=Craftable
 changefilters=ЗМІНИТИ ФІЛЬТРИ
 craftfilters=Crafting filters
 showhidden=Показати приховані
-craftshowhiddentip=Деякі рецепти приховано, доки ви не зможете їх створити або вимагають, щоб певний інгредієнт з’явився в інвентарі
+craftshowhiddentip=Деякі креслення приховано, доки ви не зможете їх створити або вимагають, щоб певний інгредієнт з’явився в інвентарі
 usenearbyinv=Use nearby inventories
 usenearbyinvtip=If crafting should use nearby inventory items
 expand=Розгорнути
@@ -3173,7 +3147,7 @@ useladderfloat=Підійдіть ближче та натисніть <key> н�
 useladderdoor=Підійдіть і скористайтеся драбиною, щоб спуститися під землю. Ви можете відкривати та закривати двері, натиснувши на них <key>
 mineore=Видобувайте руду, натискаючи <key> з кайлом в руці
 findorefloat=Походіть або покопайте, щоб знайти руду
-ores=Руди використовуються для виготовлення злитків, які використовуються в багатьох рецептах у грі.
+ores=Руди використовуються для виготовлення злитків, які використовуються в багатьох кресленнях у грі.
 oresnext=Далі
 travel=Якщо ви допливите до краю карти, ви зможете потрапити на інші острови. Острови мають різні біоми та особливості, такі як підземелля та села. Натисніть <key>, щоб переглянути карту світу. Успіхів у дослідженні!
 travelend=Завершити вступ
@@ -3236,9 +3210,9 @@ primalui=Первинний
 ghostui=Привид
 languageselect=Мова: <language>
 opensaves=Відкрийте папку із збереженнями
-resetrecipes=Відновити стандартні рецепти
+resetrecipes=Відновити стандартні креслення
 resetcache=Очистити папку кешу клієнта
-recipesconfirm=Ви впевнені, що хочете скинути рецепти?
+recipesconfirm=Ви впевнені, що хочете скинути креслення?
 cacheconfirm=Ви впевнені, що бажаєте очистити папку кешу клієнта?
 onlyinmenu=Не можна зробити в грі
 vsync=Увімкнути VSync
