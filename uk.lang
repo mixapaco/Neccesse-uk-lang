@@ -2454,7 +2454,7 @@ needfuel=Потрібне пальне
 shopnoitems=Предметів не знайдено
 shopselltip=§aGet <coins>[item=coin] coins for <amount>:
 shopbuytip=§aGive <coins>[item=coin] coins for <amount>:
-insertmat=Вставте матеріал для виготовлення в слот
+insertmat=Вставте матеріал для виготовлення в комірку
 waystoneinvalidhome=§6Could not find Homestone
 waystonenoslots=§6No empty Waystone slots
 waystoneinvalid=§6Could not find Waystone
