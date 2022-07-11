@@ -296,7 +296,7 @@ deepstonewalltrap=Глибокам'яна <trap>
 obsidianwalltrap=Обсидіанова <trap>
 dungeonwalltrap=Підземельна <trap>
 deepsandstonewalltrap=Глибопісковикова <trap>
-// rev
+// ???
 arrowtrap=Пастка
 flametrap=Вогняна пастка
 voidtrap=Пустотна пастка
@@ -427,32 +427,31 @@ logicoutputs=Виходи: <value>
 logicactive=Активний
 logicinactive=Неактивний
 bufferdelay=Затримка: <value>
-// ???
 sensorplayeron=Виявлення гравців
 sensorplayeroff=Виявлення гравців вимкнено
-sensorhostileon=Виявлення ворожих мобів
-sensorhostileoff=Виявлення ворожих мобів вимкнено
-sensorpassiveon=Виявлення тварин
-sensorpassiveoff=Виявлення тварин вимкнено
-rsactivate=Activate: <value>
-rsreset=Reset: <value>
-tflipflopout1=Flipped
-tflipflopout2=Not flipped
-counterinc=Increase: <value>
-counterdec=Decrease: <value>
-countervalue=Value: <value>/<max>
-timerticks=Ticks: <value>
-timercurrent=Timer: <value>
-timeractive=Running
-timerinactive=Not running
-soundbass=Bass
-soundhat=Hat
-soundkick=Kick
-soundpiano=Piano
-soundsnare=Snare
+sensorhostileon=Виявлення ворожих істот
+sensorhostileoff=Виявлення ворожих істот вимкнено
+sensorpassiveon=Виявлення нейтральних істот
+sensorpassiveoff=Виявлення нейтральних істот вимкнено
+rsactivate=Активувати: <value>
+rsreset=Скинути: <value>
+tflipflopout1=Активний
+tflipflopout2=Неактивний
+counterinc=Збільшити: <value>
+counterdec=Зменшити: <value>
+countervalue=Значення: <value>/<max>
+timerticks=Тіки: <value>
+timercurrent=Таймер: <value>
+timeractive=Працює
+timerinactive=Не працює
+soundbass=Бас
+soundhat=Тарілка
+soundkick=Бас-Барабан
+soundpiano=Піаніно
+soundsnare=Малий барабан
 soundnone=N/A
-soundname=Sound: <name>
-soundsemitone=Semitone: <value>
+soundname=Звук: <name>
+soundsemitone=Півтон: <value>
 
 [item]
 // General materials
@@ -877,29 +876,27 @@ plagueboots=Черевики чумного лікаря
 surgicalmask=Хірургічна маска
 trapperhat=Капелюх мисливця
 horsemask=Маска коня
-// ???
-horsecostumeshirt=Horse Costume Shirt
-horsecostumeboots=Horse Costume Boots
+horsecostumeshirt=Верхня частина костюму коня
+horsecostumeboots=Нижня частина костюму коня
 christmashat=Різдвяний капелюх
 pumpkinmask=Маска з гарбуза
-chickenmask=Chicken Mask
-chickencostumeshirt=Chicken Costume Shirt
-chickencostumeboots=Chicken Costume Boots
+chickenmask=Маска курки
+chickencostumeshirt=Верхня частина костюму курки
+chickencostumeboots=Нижня частина костюму курки
 sunglasses=Сонцезахисні окуляри
 jesterhat=Капелюх шута
 jestershirt=Сорочка шута
 jesterboots=Черевики шута
-hulahat=Hula Hat
-hulaskirtwithtop=Hula Skirt With Top
-hulaskirt=Hula Skirt
+hulahat=Гавайський вінок
+hulaskirtwithtop=Гавайське вбрання
+hulaskirt=Гавайська спідниця
 swimsuit=Купальник
 swimtrunks=Плавки
 snowhood=Сніговий капюшон
 snowcloak=Сніговий плащ
 snowboots=Снігові чоботи
-// ???
-sailorhat=Капелюх моряка
-sailorshirt=Сорочка моряка
+sailorhat=Безкозирка
+sailorshirt=Матроска
 sailorshoes=Взуття моряка
 
 // Food
@@ -965,7 +962,7 @@ strawberrypie=Полуничний пиріг
 blackcoffee=Чорна кава
 cappuccino=Капучіно
 
-// Potions ???
+// Potions
 healthpotion=Зілля здоров'я
 greaterhealthpotion=Велике зілля здоров'я
 speedpotion=Зілля швидкості
@@ -990,7 +987,7 @@ knockbackpotion=Зілля відкидування
 rapidpotion=Зілля швидкості снарядів
 accuracypotion=Зілля точності
 
-// Consumables ???
+// Consumables
 recallscroll=Сувій повернення
 travelscroll=Сувій подорожі
 recallflask=Фляга повернення
@@ -1022,22 +1019,20 @@ swampgrassseed=Насіння болотної трави
 fertilizer=Добриво
 mysteriousportal=Загадковий портал
 royalegg=Королівське яйце
-// ???
-voidcaller=Void Caller
+voidcaller=Викликач пустоти
 spikedfossil=Колюча скам'янілість
 ancientstatue=Стародавня статуя
-// ???
 shadowgate=Тіньові ворота
 icecrown=Льодяна корона
 dragonsouls=Душі драконів
-villagemap=Local Village Map
-dungeonmap=Local Dungeon Map
-piratemap=Local Pirate Map
-importedcow=Imported Cow
-importedsheep=Imported Sheep
+villagemap=Мапа поселення
+dungeonmap=Мапа підземелля
+piratemap=Мапа піратів
+importedcow=Корова в ящику
+importedsheep=Вівця в ящику
 inefficientfeather=Неефективне перо
 jumpingball=Пострибунчик
-hoverboard=Ховерборд
+hoverboard=Ховербордhttps://rozetka.com.ua/ua/pomazok/c4658665/
 weticicle=Мокра бурулька
 exoticseeds=Екзотичні насіння
 steelboat=Сталевий човен
@@ -1045,10 +1040,10 @@ magicstilts=Чарівні ходулі
 demonheart=Серце демона
 lifeelixir=Еліксир життя
 emptypendant=Порожній кулон
-wizardsocket=Wizard Socket
+wizardsocket=Кишеня Чарівника
 vinyl=<name> платівка (<from>)
 
-// Quest items ???
+// Quest items
 zombiearm=Рука зомбі
 goblinring=Перстень гобліна
 babyswordfish=Дитинча риби-меча
@@ -1063,15 +1058,15 @@ slimechunk=Шматок слизу
 enchantedcollar=Зачарований нашийник
 apprenticescroll=Сувій учня
 darkgem=Темний самоцвіт
-slimylauncher=Slimy Launcher
+slimylauncher=Кидач слизу
 mummysbandage=Пов'язка мумії
 magicsand=Чарівний пісок
 caveoyster=Печерна устриця
 capturedspirit=Полонений дух
-pegleg=Дерев'яний протез
+pegleg=Дерев'яна нога
 eyepatch=Пов'язка на око
 rumbottle=Пляшка рому
-deepspiritswab=Deep Spirit Swab
+deepspiritswab=Пензлик Глибинного духа
 brokenlimb=Зламана кінцівка
 feraltail=Дикий хвіст
 razoricicle=Гостра бурулька
@@ -1085,8 +1080,7 @@ anystone=Будь-який камінь
 anycommonfish=Будь-яка звичайна риба
 anyrawmeat=Будь-яке сире м'ясо
 bulletuser=Будь-яка вогнепальна зброя
-// ???
-anycompostable=Any compostable
+anycompostable=Будь-що компостне
 anyfruit=Будь-які фрукти
 
 [itemtooltip]
@@ -1103,19 +1097,19 @@ armorvalue=+<value> до захисту
 setbonus=Бонус набору:
 ninjaset1=Чорт забирай, ти ніндзя!
 ninjaset2=Усуває зниження швидкості руху\nпід час атаки
-ivyhoodset=Атака отруює ціль\n15 шкоди в секунду (тривалість 5 секунд)
+ivyhoodset=Атака отруює ціль\n15 шкоди протягом 5 секунд
 ivyhelmetset=При отриманні шкоди виділяється отруйний слиз
 ivycircletset=Під час бою час від часу\nз'являється отруйний слизовик
 quartzset=Отримайте миттєве пришвидшення\nпісля отримання шкоди\n20 секунд перезаряджання
 voidset=Натисніть [input=setability] щоб отримати миттєве пришвидшення
 tungstenset1=Стійкість до відкидування
 tungstenset2=Збільшене відкидування на 50%
-shadowhatset=Магічні атаки переслідують ціль\n25 шкоди в секунду (тривалість 5 секунд)
+shadowhatset=Магічні атаки переслідують ціль\n25 шкоди протягом 5 секунд
 shadowhoodset=+10% шкоди, коли не рухаєтесь
 surgicalmasktip=Зберігає людей навколо вас у безпеці
 spiderchest=Зменшує відкидування
-spiderset=Атака отруює ціль\n10 шкоди в секунду (тривалість 5 секунд)\nІмунітет до сповільнення
-frostset=Атаки ближнього бою сповільнюють і завдають шкоди цілі\n15 шкоди в секунду (тривалість 5 секунд)
+spiderset=Атака отруює ціль\n10 шкоди протягом 5 секунд\nІмунітет до сповільнення
+frostset=Атаки ближнього бою сповільнюють і завдають шкоди цілі\n15 шкоди протягом 5 секунд
 glacialhelmetset=Атаки ближнього бою вистрілюють бурулькою
 glacialcircletset=Атаки посіпак сповільнюють ціль
 ancientfossilset=Натисніть [input=setability] щоб отримати 100% шанс критичного удару на 5 секунд
@@ -1123,8 +1117,9 @@ ancientfossilset=Натисніть [input=setability] щоб отримати 1
 // Trinkets ???
 trinketslot=Місце для дрібничок
 trinketabilityslot=Місце для дрібничок із здібностями
+// ???
 useabilityslot=Use trinket ability slot first
-trinketdisabled=§hВимкнена через <items>
+trinketdisabled=§hВимкнуто через (<items>)
 demonclawtip=Надає стійкість до відкидування
 polarclawtip=Атаки сповільнюють ціль
 finstip=Подвоює швидкість плавання
@@ -1160,13 +1155,13 @@ magicalquiver=Зменшує використання стріл на 75%
 ammobox=Зменшує використання куль на 75%
 frozenhearttip=Збільшує максимальне здоров'я на 50
 frozenwavetip=Збільшує критичну шкоду на 25%
-spidercharm=Отримання шкоди отруює нападника\n40 шкоди в секунду (тривалість 5 секунд)
+spidercharm=Отримання шкоди отруює нападника\n40 шкоди протягом 5 секунд
 guardianshelltip=Одягніть і натисніть [input=trinketability], щоб отримати\nміцний щит на короткий час
 fuzzydicetip=Збільшує шанс критичного удару на 5%
 noblehorseshoetip=Збільшує шанс критичного удару на 5%
 luckycapetip=Збільшує шанс критичного удару на 10%
 bonehilt=Збільшує пробиття броні на 20
-firestonetip=Атаки підпалюють ціль\n25 шкоди в секунду (тривалість 5 секунд)
+firestonetip=Атаки підпалюють ціль\n25 шкоди протягом 5 секунд
 lifependant=Покращує регенерацію здоров'я
 constructionhammer=Збільшує швидкість будівництва
 telescopicladder=Збільшує дальність будівництва
@@ -1174,9 +1169,9 @@ toolextender=Збільшує дальність видобутку
 itemattractortip=Збільшує дальність підбору речей
 spikedboots=Збільшує швидкість руху на 15%\nЗапобігає ковзанню
 spikedbatboots=Збільшує швидкість руху на 25%\nЗапобігає ковзанню
-froststonetip=Атаки уповільнюють ціль і наносять\n15 шкоди в секунду (тривалість 5 секунд)
-frostflametip=Атаки уповільнюють ціль і наносять\n35 шкоди в секунду (тривалість 5 секунд)
-calmingrose=Зменшує швидкість появи мобів
+froststonetip=Атаки уповільнюють ціль і наносять\n15 шкоди протягом 5 секунд
+frostflametip=Атаки уповільнюють ціль і наносять\n35 шкоди протягом 5 секунд
+calmingrose=Зменшує швидкість появи ворожих істот
 frenzyorbtip=Збільшує шкоду до +40% відносно втраченого здоров’я
 templependanttip=Зменшує час перезарядки ривка на 25%
 
@@ -1267,7 +1262,7 @@ nutritiontip=Поживність: <value>
 foodqualitytip=Якість: <quality>
 
 // Potions
-consumetip=Може бути випито
+consumetip=Може бути використано
 hourduration=<value> година
 hoursduration=<value> години
 minduration=<value> хвилина
@@ -1400,12 +1395,12 @@ wizardsockettip=Назавжди збільшує максимальну кіл�
 vinyltip=Встав в програвач для відтворення
 recalltip=Телепортує до вашої точки відродження
 stinkflasktip=Покриває вас запахом, який приваблює ворогів
-enchantingscrollequipmenttip=Used to enchant an equipment item with <enchantment>
-enchantingscrollmeleetip=Used to enchant a melee weapon with <enchantment>
-enchantingscrollrangedtip=Used to enchant a ranged weapon with <enchantment>
-enchantingscrollmagictip=Used to enchant a magic weapon with <enchantment>
-enchantingscrollsummontip=Used to enchant a summon weapon with <enchantment>
-enchantingscrolltooltip=Used to enchant a tool item with <enchantment>
+enchantingscrollequipmenttip=Накладає чари <enchantment> на спорядження
+enchantingscrollmeleetip=Накладає чари <enchantment> на зброю ближнього бою
+enchantingscrollrangedtip=Накладає чари <enchantment> на зброю дальнього бою
+enchantingscrollmagictip=Накладає чари <enchantment> на магічну зброю
+enchantingscrollsummontip=Накладає чари <enchantment> на зброю виклику
+enchantingscrolltooltip=Накладає чари <enchantment> на інструменти
 singleuse=Одноразове використання
 infiniteuse=Нескінченне використання
 traveltip=Відправляє до найближчих островів
@@ -1554,72 +1549,72 @@ vinyls=Платівки
 questitems=Квестові предмети
 unknownitems=<count> невідомі предмети
 
-[enchantment]
+// ??? Switch names after enchantments names swap
+[enchantment] 
 // Trinkets
-keen=Гострий
-blunt=Затуплений
-nimble=Спритний
-sluggish=Млявий
-quick=Швидкий
-clumsy=Незграбний
-sturdy=Міцний
-weak=Слабкий
-precise=Точний
-sloppy=Неакуратний
-bulky=Громіздкий
-puny=Кволий
+keen=(Гостроти)
+blunt=(Затупленості)
+nimble=(Спритності)
+sluggish=(Млявості)
+quick=(Швидкості)
+clumsy=(Незграбності)
+sturdy=(Міцності)
+weak=(Слабкості)
+precise=(Точності)
+sloppy=(Неакуратності)
+bulky=(Громіздкості)
+puny=(Кволості)
 
 // Sword/melee weapon enchants
-berserk=Навіжений
-adamant=Непохитний
-agile=Жвавий
-harmful=Згубний
-grand=Величний
-docile=Покірний
-shoddy=Кепський
-amateur=Аматорський
-envious=Заздрісний
+berserk=(Навіженості)
+adamant=(Непохитності)
+agile=(Жвавості)
+harmful=(Згубності)
+grand=(Величності)
+docile=(Покірності)
+shoddy=(Кепськості)
+amateur=(Аматорства)
+envious=(Заздрісності)
 
 // Ranged weapon enchants
-masterful=Майстерний
-skillful=Вправний
-tightened=Затягнений
-modern=Сучасний
-trained=Навчений
-loose=Послаблений
-eroding=Згнилий
-primitive=Примітивний
-faulty=Невправний
+masterful=(Майстерності)
+skillful=(Вправності)
+tightened=(Затягненості)
+modern=(Сучасності)
+trained=(Навченості)
+loose=(Послабленості)
+eroding=(Згнилості)
+primitive=(Примітивності)
+faulty=(Невправності)
 
 // Magic weapon enchants
-divine=Божественний
-wrathful=Сердитий
-wise=Мудрий
-adept=Досвідчений
-apprentice=Учнівський
-decaying=Загниваючий
-novice=Недосвідчений
-daft=Недоумкуватий
-corrupt=Зіпсований
+divine=(Божественості)
+wrathful=(Сердитості)
+wise=(Мудрості)
+adept=(Досвідченості)
+apprentice=(Учнівства)
+decaying=(Згниваючості)
+novice=(Недосвідченості)
+daft=(Недоумкуватості)
+corrupt=(Зіпсованості)
 
 // Summon weapon enchants
-savage=Лютий
-athletic=Атлетичний
-mindful=Уважний
-proud=Гордий
-aware=Обізнаний
-spoiled=Зіпсований
-sick=Недужий
-spiteful=Злопам’ятний
-naive=Простакуватий
+savage=(Лютості)
+athletic=(Атлетичності)
+mindful=(Уважності)
+proud=(Гордості)
+aware=(Обізнаності)
+spoiled=(Зіпсованості)
+sick=(Недужості)
+spiteful=(Злопам’ятності)
+naive=(Простакуватості)
 
 // Tool enchants
-// ??? кайло = кирка
-master=Майстерна
-shining=Блискуча
-sharp=Гостра
-absurd=Безглузда
-used=Уживана
+master=(Майстерності)
+shining=(Блискучості)
+sharp=(Гостроти)
+absurd=(Безглуздості)
+used=(Уживаності)
 
 [buffmodifiers]
 currentmodifiers=Поточні модифікатори:
@@ -1668,7 +1663,6 @@ firedamage=<mod>% шкоди вогнем
 firedamageflat=<mod> шкоди вогнем
 frostdamage=<mod>% шкоди морозом
 frostdamageflat=<mod> шкоди морозом
-// ???
 mobspawnrate=<mod>% появи ворогів
 mobspawncap=<mod>% появи ворогів (максимум)
 mobspawnlightthreshold=<mod> світловий поріг появи ворогів
@@ -1716,8 +1710,8 @@ treasurehunter=Підсвічення скарбів
 bouncy=Стрибучість
 paralyzed=Паралізований
 
-targetrange=<mod>% target range
-chaserrange=<mod>% chaser range
+targetrange=Видимість <mod>%
+chaserrange=Дистанція переслідування <mod>%
 
 // Items
 toolknockback=<mod>% відкидування
@@ -1826,7 +1820,7 @@ ancientskeletonmage=Стародавній скелет-маг
 humanraider=Грабіжник
 
 // Pets/spawned
-spawnedname=<player>'s <mob>
+spawnedname=<mob> <player>
 tameostrich=Приручений страус
 petpenguin=Домашній пінгвін
 petparrot=Домашній папуга
@@ -1846,7 +1840,7 @@ playercryoflake=Сніжинка
 babyskeleton=Скелетик
 babyskeletonmage=Маг-скелетик
 
-// Bosses/minions ???
+// Bosses/minions
 evilsprotector=Хранитель зла
 evilsportal=Портал зла
 portalminion=Посіпака порталу
@@ -2120,8 +2114,8 @@ stamina=Витривалість
 canceltip=Скасувати
 nomodifiers=§9Немає модифікаторів, наданих підсиленням
 teleportsicknesstip=Неможливо знову телепортуватися
-settlementflagtip=Відродження мобів значно зменшено
-campfiretip1=Відродження мобів зменшено
+settlementflagtip=Відродження ворожих істот значно зменшено
+campfiretip1=Відродження ворожих істот зменшено
 campfiretip2=Позабойове відновлення здоров'я
 hungrytip=Немає відновлення здоров'я
 starvingtip=Сповільнено на 25%
@@ -2182,18 +2176,19 @@ respondingdc=Сервер не відповідає
 modsmismatch=Моди не співпадають
 
 [deaths]
-default=<victim> died
-settler=§9<victim> died at <settlement>
-unknownatt=Unknown
+default=<victim> вмер
+settler=§9<victim> вмер в <settlement>
+unknownatt=Невідомо
+// ???
 toobuffed=<victim> was too buffed
-generic1=<victim> was slain by <attacker>
-generic2=<victim> got ripped to pieces by <attacker>
-generic3=<victim> got humiliated by <attacker>
-generic4=<victim> could not handle <attacker>
-generic5=<attacker> overcame <victim>
-generic6=<attacker> was too fast for <victim>
-generic7=<attacker> humiliated <victim>
-generic8=<victim> could not handle <attacker>
+generic1=<attacker> вбив <victim>
+generic2=<attacker> розірвав на шматки <victim>
+generic3=<attacker> затуркав <victim>
+generic4=<victim> не справився з <attacker>
+generic5=<attacker> подолав <victim>
+generic6=<victim> не зміг утекти від <attacker>
+generic7=<attacker> відправив до прабатьків <victim>
+generic8=<victim> отримав на горіхи від <attacker>
 projectile1=<victim> got headshot by <attacker>
 projectile2=<attacker> landed a fatal shot on <victim>
 projectile3=<victim> was hunted down by <attacker>
@@ -2251,21 +2246,21 @@ cavespider1=<victim> got torn up by <attacker>
 cavespider2=<attacker>'s fangs was too big for <victim>
 cavespider3=<attacker> ate <victim> alive
 
-[tech] ???
-all=All
-inventory=Inventory
-workstation=Workstation
-cookingpot=Cooking Pot
-roastingstation=Roasting Station
-cookingstation=Cooking Station
-forge=Forge
-carpenter=Carpenters Bench
-ironanvil=Iron Anvil
-alchemy=Alchemy Table
-demonic=Demonic Workstation
-advanced=Advanced Workstation
-madein=Made in: <tech>
-madeinhidden=Made in: <tech> (hidden)
+[tech]
+all=Все
+inventory=Інвентарі
+workstation=Верстаку
+cookingpot=Кастрюлі
+roastingstation=Рожені
+cookingstation=Кухонній плиті
+forge=Плавильні
+carpenter=Столярному верстаку
+ironanvil=Залізному ковадлі
+alchemy=Алхімічній лабораторії
+demonic=Демонічному верстаку
+advanced=Просунутому верстаку
+madein=Зроблено в: <tech>
+madeinhidden=Зроблено в: <tech> (приховано)
 
 [achievement]
 complete=Завершено
@@ -2430,13 +2425,14 @@ scoreyour=Ваш острів
 scoredirup=Над тобою
 scoredirdown=Під тобою
 scoredirunknown=Невідоме місцезнаходження
-latencytip=<latency> ms
+latencytip=<latency> мс
 healthbartip=Здоров'я <value>
 hungerbartip=Голод <value>
 respawn=Відродитися
 respawnin=Відродження <seconds>
 totalarmor=Загальна броня: <armor>
 waitingplayers=Чекаємо гравців <count>/<total>
+// ???
 filtercraft=Craftable
 changefilters=ЗМІНИТИ ФІЛЬТРИ
 craftfilters=Crafting filters
@@ -2447,11 +2443,11 @@ usenearbyinvtip=If crafting should use nearby inventory items
 expand=Розгорнути
 collapse=Згорнути
 fuel=Паливо
-fuelkeeprunning=Keep running
+fuelkeeprunning=Не припиняти роботу
 needfuel=Потрібне пальне
 shopnoitems=Предметів не знайдено
-shopselltip=§aGet <coins>[item=coin] coins for <amount>:
-shopbuytip=§aGive <coins>[item=coin] coins for <amount>:
+shopselltip=§aОтримай <coins>[item=coin] копійок за <amount>:
+shopbuytip=§aЗаплати <coins>[item=coin] копійок за <amount>:
 insertmat=Вставте матеріал для виготовлення в комірку
 waystoneinvalidhome=§6Could not find Homestone
 waystonenoslots=§6No empty Waystone slots
@@ -2503,7 +2499,6 @@ continuehost=Створити мережеву гру у світі <world>
 continuejoin=Приєднатися до <name>
 newworld=Створити новий світ
 loadworld=Завантажити світ
-// ???
 hostworld=Створити мережеву гру
 multiplayer=Мультиплеєр
 settings=Налаштування
@@ -2537,34 +2532,35 @@ passwordprotected=Сервер захищений паролем
 serversettings=Налаштування сервера:
 hungerdisabled=Голод вимкнено
 hungerenabled=Голод увімкнено
-mobsdisabled=Поява мобів вимкнена
-mobsenabled=Поява мобів увімкнено
+mobsdisabled=Поява ворожих істот вимкнена
+mobsenabled=Поява ворожих істот увімкнено
 forcepvpon=Примусово ввімкнено PvP
 forcepvpoff=Примусово вимкнено PvP
 difficulty=Складність
-difficultytip=<difficulty> складність
-diffcasual=Casual
-diffcasualtip=Damage taken halved
-diffeasy=Easy
-diffeasytip=Damage taken reduced
-diffnormal=Normal
-diffhard=Hard
-diffhardtip=Damage taken increased and less knockback given
-diffbrutal=Brutal
-diffbrutaltip=Damage taken doubled and reduced knockback given
-deathpenalty=Death penalty
-dptip=Death: <penalty>
-dpnone=No penalty
-dpdropmats=Drop materials
-dpdropmatstip=Drop all non equipment, combat and special items
-dpdropmain=Drop main inventory
-dpdropmaintip=Drop everything except hotbar and equipped items
-dpdropfull=Drop full inventory
-dpdropfulltip=Drop everything on you
-dphardcore=Хардкор
-dphardcoretip=Персонаж залишається мертвим назавжди
+difficultytip=<difficulty>
+diffcasual=Казуальна
+diffcasualtip=Отримувана шкода зменшена вдвічі
+diffeasy=Легка
+diffeasytip=Отримувана шкода зменшена
+diffnormal=Нормальна
+diffhard=Важка
+diffhardtip=Отримувана шкода збільшена і знижене відкидування
+diffbrutal=Брутальна
+diffbrutaltip=Отримувана шкода збільшена вдвічі і знижене відкидування
+deathpenalty=Покарання за смерть
+dptip=Смерть: <penalty>
+dpnone=Без покарання
+dpdropmats=Випадіння матеріалів
+dpdropmatstip=Випадіння усьго окрім спорядження, зброї та особливих предметів
 // ???
-raidfrequency=Raid frequency
+dpdropmain=Випадіння предметів з інвентаря
+// ???
+dpdropmaintip=Випадіння всіх предметів окрім екіпірованих предметів та з гарячої панелі
+dpdropfull=Випадіння всіх предметів з інвентаря
+dpdropfulltip=Випадіння всіх предметів
+dphardcore=Гардкор
+dphardcoretip=Персонаж не відроджується
+raidfrequency=Регулярнісь набігів
 raidsoccasionally=Час від часу
 raidsrarely=Рідко
 raidsnever=Ніколи
@@ -2606,11 +2602,11 @@ customspawn=Спеціальний початковий острів
 xcoord=X координата
 ycoord=Y координата
 spawnguide=Початковий будиночок
-disablespawns=Вимкнути появу мобів
+disablespawns=Вимкнути появу істот
 daymodnew=Модифікатор денного часу
 nightmodnew=Модифікатор нічного часу
-spawnsettings=Spawn settings
-spawnseed=Spawn seed
+spawnsettings=Розширені налаштування світу
+spawnseed=Зерно генерації
 playernamesize=Ім'я має містити від 1 до 30 символів
 playernamesymbols=Ім’я містить недійсні символи
 playernameinuse=Таке ім’я уже існує
@@ -2715,10 +2711,10 @@ achievementsandstats=Досягнення та статистика
 achievements=Досягнення
 achdisabled=Досягнення вимкнено
 achenabled=Досягнення включено
-achdisabledhelp=У цьому світі не ввімкнено досягнення та статистику гравців. Досягнення вимикаються, коли в світі використовуються чити. Це не можна відмінити, і вам потрібно почати новий світ, щоб прогресувати в досягненнях.
+achdisabledhelp=У цьому світі не ввімкнено досягнення та статистику гравця. Досягнення вимикаються, коли в світі використовуються чити. Це не можна відмінити, і вам потрібно почати новий світ, щоб прогресувати в досягненнях.
 showcompleted=Показати завершені
 statsnotfound=Статистика не знайдена
-playerstats=Статистика гравців
+playerstats=Статистика гравця
 playerstatstip=Ваша загальна статистика по всіх світах
 psdisabled=Статистика гравця вимкнена
 globalstats=Глобальна статистика
@@ -2816,7 +2812,7 @@ eldertip15=Якщо ви вважаєте гру занадто легкою а�
 elderhelpbutton=Поясніть мені...
 elderpicktopic=Про що ви хотіли б дізнатися?
 eldercrafting=Створення
-eldercraftingtip=Усі предмети зі спливаючою підказкою «Матеріал для виготовлення» десь використовуються в створенні. Використовуйте свій інвентар для створення простих рецептів. Станції створення, такі як робоча станція та ковадло, можна використовувати для більш просунутих рецептів. Використовуйте фільтр у інвентарі, щоб фільтрувати певні рецепти. Помістіть матеріал для виготовлення в комірку нижче, щоб побачити можливі рецепти.
+eldercraftingtip=Усі предмети зі спливаючою підказкою «Матеріал для виготовлення» десь використовуються в створенні. Використовуйте свій інвентар для створення простих рецептів. Станції створення, такі як верстак та ковадло, можна використовувати для більш просунутих рецептів. Використовуйте фільтр у інвентарі, щоб фільтрувати певні рецепти. Помістіть матеріал для виготовлення в комірку нижче, щоб побачити можливі рецепти.
 elderexploring=Подорожі
 elderexploringtip=Swimming or sailing to the edge of the map will allow you to travel to different islands. Once you have travelled to the island, you will discover its biome for future travel. Some islands have higher level content, so it may be worth to leave it alone and come back later.
 eldertrading=Торгівля
@@ -2933,8 +2929,8 @@ bufferticks=Ticks
 buffertip=<ticks> ticks is 1 sec
 timerticks=Ticks
 timertip=<ticks> ticks is 1 sec
-soundsemitone=Semitone
-sensorlabel=Sensor
+soundsemitone=Півтон
+sensorlabel=Датчик
 sensorplayers=Players
 sensorhostile=Hostile mobs
 sensorpassive=Passive mobs
@@ -3138,8 +3134,8 @@ hittree=Підійдіть ближче та вдарте сокирою по д
 findtree=Знайдіть дерево, щоб зрубати
 openinv=Натисніть <key>, щоб відкрити інвентар
 crafttorch=Зробіть факел у меню створення
-craftwork=Знайдіть або створіть робочу станцію (потрібно 10[item=pinelog]) і розмістіть її за допомогою <key1>. Потім використовуйте її, натиснувши на ній <key2>.
-craftpick=Знайдіть і створіть дерев'яне кайло на робочій станції (потрібно 8[item=pinelog]).
+craftwork=Знайдіть або створіть верстак (потрібно 10[item=pinelog]) і розмістіть її за допомогою <key1>. Потім використовуйте її, натиснувши на ній <key2>.
+craftpick=Знайдіть і створіть дерев'яне кайло на верстаку (потрібно 8[item=pinelog]).
 talkelder=Поговоріть зі старійшиною, щоб дізнатися про гру.
 elderdoor=Підійдіть до дверей і відкрийте їх <key>
 elderwalk=Підійдіть ближче і поговоріть зі старійшиною <key>
@@ -3200,7 +3196,7 @@ showteammates=Показати маркери товаришів по коман
 showpickup=Показати текст отримання
 showdamage=Показати пошкодження
 showdot=Показати пошкодження за час
-showmobhealthbars=Показати здоров'я мобів
+showmobhealthbars=Показати здоров'я істот
 showbosshealthbars=Показати здоров'я боса
 showitemtooltipsbackground=Показувати фон підказки предметів
 showbasictooltipsbackground=Показувати фон підказок
@@ -3254,9 +3250,9 @@ damage_dealt=Заподіяна шкода
 show_types=Показати типи
 damage_taken=Отримана шкода
 deaths=Смертей
-mob_kills=Вбито мобів
+mob_kills=Вбито істот
 boss_kills=Вбито босів
-show_mobs=Показати мобів
+show_mobs=Показати істот
 island_travels=Досліджено островів
 islands_discovered=Відкрито островів
 biomes_discovered=Виявлено біомів
@@ -3291,7 +3287,7 @@ set_bonuses_worn=Набір бонусів отримано
 ladders_used=Використано сходів
 doors_used=Використано дверей
 plates_triggered=Наступлено на плит
-levers_flicked=Клацнуто важелів
+levers_flicked=Перемкнуто важелів
 // ???
 homestones_used=Homestones used
 waystones_used=Waystones used
