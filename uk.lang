@@ -2180,7 +2180,7 @@ default=<victim> вмер
 settler=§9<victim> вмер в <settlement>
 unknownatt=Невідомо
 // ???
-toobuffed=<victim> помер(ла) від перепідсилення
+toobuffed=<victim> помер(ла) від негативного ефекту
 generic1=<attacker> убив(ла) <victim>
 generic2=<attacker> розірвав(ла) на шматки <victim>
 generic3=<attacker> пустив(ла) кров <victim>
