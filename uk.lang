@@ -383,7 +383,8 @@ watergrass=Водорослі
 snowpile=Снігова купа
 cobweb=Павутина
 thorns=Шипи
-ladderdown=Спуститись
+// ???
+ladderdown=Драбина для спуску
 ladderup=Піднятись
 dungeonentrance=Вхід у підземелля
 dungeonexit=Вихід із підземелля
@@ -401,8 +402,9 @@ ancienttotem=Стародавній тотем
 templepedestal=Храмовий постамент
 settlementflag=Прапор поселення
 // ???
-homestone=Homestone
-waystone=Waystone
+homestone=Моноліт поселення
+// ??? Моноліт переміщення
+waystone=Моноліт телепортації
 bannerstand=Стійка для знамен
 musicplayer=Музичний програвач
 
@@ -1114,8 +1116,8 @@ glacialcircletset=Атаки посіпак сповільнюють ціль
 ancientfossilset=Натисніть [input=setability] щоб отримати 100% шанс критичного удару на 5 секунд
 
 // Trinkets ???
-trinketslot=Місце для дрібничок
-trinketabilityslot=Місце для дрібничок із здібностями
+trinketslot=Комірка для дрібничок
+trinketabilityslot=Комірка для дрібничок із здібностями
 // ???
 useabilityslot=Use trinket ability slot first
 trinketdisabled=§hВимкнуто через (<items>)
@@ -1176,7 +1178,7 @@ templependanttip=Зменшує час перезарядки ривка на 25
 
 // Tools
 tooldmg=Шкода інструменту: <value>
-tooltier=Ранг інструменту: <value>
+tooltier=Ступінь інструменту: <value>
 tooladdrange=<value> до дальності
 pickaxetip=Кайло
 shoveltip=Лопата
@@ -2281,7 +2283,7 @@ enchant_item_desc=Зачаруйте предмет за допомогою ма
 magical_drop=Чарівна крапля
 magical_drop_desc=Збільште максимальну кількість слотів для дрібничок
 village_helper=Сільський помічник
-village_helper_desc=Виконайте квести поселення
+village_helper_desc=Виконайте завдання поселення
 hoarder=Скнара
 hoarder_desc=Майте повний інвентар різних предметів
 self_proclaimed=Самопроголошений
@@ -2356,7 +2358,7 @@ connectworld=Завантаження світу
 connectlevel=Завантаження рівня
 connectplayers=Завантаження гравців <percent>%
 connectclient=Завантаження клієнта
-connectquests=Завантаження квестів
+connectquests=Завантаження завдань
 connectmap=Завантаження карти <percent>%
 
 [jobs]
@@ -2753,13 +2755,13 @@ teammembers=Члени команди
 teamkick=Вигнати <name>
 teampassowner=Передайте право власності на команду
 teaminvites=Запрошує
-diedlabel=Ти вмер
+diedlabel=Ти помер
 settlement=Поселення
 settlementsurface=Тільки на поверхні
 pvpandteams=PvP і команди
 quests=Завдання
-noquests=У вас немає активних квестів
-tracknewquests=Відстежуйте нові квести
+noquests=У вас немає активних завдань
+tracknewquests=Відстежуйте нові завдання
 maphide=Сховати
 mapshow=Показати
 toggleautodoor=Автоматичні двері
@@ -3080,15 +3082,18 @@ travelcoordselfspawn=Відносно точки відродження
 travelcoordworldspawn=Відносно створення світу
 travelcoordglobal=Світові координати
 clearrecentdeaths=Очистити мітки недавніх смертей
-craftingguide=Crafting guide
-composting=Composting...
-needcompost=Need compost material
+// ???
+craftingguide=Посібник по майструванню
+composting=Компостування...
+needcompost=Потрібен компостний матеріал
 insertvinyl=Вставте платівку:
 musicplaying=Відтврорюється <name>
-emptywaystones=Empty Waystone slots: <count>
-waystoneempty=Empty slot
-waystonenum=Waystone <num>
-waystonehelp=Get one Waystone slot for each completed quest tier\nMore Waystones can be bought from the settlement Mage
+emptywaystones=Вільні комірки монолітів телепортації: <count>
+waystoneempty=Вільна комірка
+waystonenum=Моноліт телепортації <num>
+waystonehelp=Отримайте одну комірку для моноліту телепортації за кожен завершений ступінь завдань\nБільше монолітів телепортації Ви можете купити у / ??? магів / мага поселення
+
+
 
 // Sidebars ???
 tutoriallabel=Посібник
@@ -3096,22 +3101,24 @@ wireedit=Проводка
 
 // Quickbar
 shiftmoreinfo=Тримайте SHIFT для отримання додаткової інформації
-restocktip=Поповнити запаси з найближчих резервів
-quickstacktip=Quick stack to nearby inventories
-quickstacktipinfo=Will quick stack items to nearby inventories. Use <key> to lock items from being stacked
+// ???
+restocktip=Поповнити запаси з найближчих сховищ
+quickstacktip=Поповнити припаси сховища
+quickstacktipinfo=Швидко докладе предмети з інвентаря у сховище. Викоритовуйте <key>, щоб заблокувати предмети від поповнення
 sorttip=Сортувати інвентар
 sorttipinfo=Викоритовуйте <key>, щоб заблокувати предмети від сортування
 
 [quests] ???
 complete=Завершено
 incomplete=Не завершено
-track=Відслідковувати завдання
+track=Відстежувати завдання
 actions=Дії
 share=Поділитись
 // ???
 shareteamneeded=Вступіть в команду, щоб ділитись завданнями
-shareresultsingle=Shared <quest> with <count> person
-shareresultplural=Shared <quest> with <count> people
+// ???
+shareresultsingle=<quest> поширено для <count> гравця
+shareresultplural=<quest> поширено для <count> гравців
 abandon=Відмовитись
 abandonconfirm=Відмовитись від завдання?
 genericquest=Завдання
@@ -3191,10 +3198,10 @@ confirm=Підтвердити?
 zoomlevel=Рівень масштабування
 dynamiczoomlevel=Динамічний рівень масштабування
 pausefocus=Пауза при втраті уваги
-skiptutorial=Завжди пропускати вступний квест
+skiptutorial=Завжди пропускати вступне завдання
 pixelfont=Піксельний шрифт
 showdebug=Показати інформацію налагодження
-showquest=Показати маркери квесту
+showquest=Показати маркери завдання
 showteammates=Показати маркери товаришів по команді
 showpickup=Показати текст отримання
 showdamage=Показати пошкодження
@@ -3289,8 +3296,8 @@ doors_used=Використано дверей
 plates_triggered=Наступлено на плит
 levers_flicked=Перемкнуто важелів
 // ???
-homestones_used=Homestones used
-waystones_used=Waystones used
+homestones_used=Монолітів поселення використано
+waystones_used=Монолітів телепортації використано
 crafted_items=Створено предметів
 crates_broken=Розбито ящиків
 
@@ -3310,7 +3317,7 @@ groupkeymods=Модифікатори клавіш
 groupdebug=Налагодження
 mouse1=Атака/поставити
 mouse2=Взаємодія
-moveup=Догори
+moveup=Вгору
 moveleft=Вліво
 movedown=Вниз
 moveright=Вправо
@@ -3327,7 +3334,7 @@ smartmining=Розумне копання
 lootall=Підібрати все
 sortinventory=Сортувати інвентар
 // ???
-quickstack=Quick stack nearby
+quickstack=Поповнити припаси сховища
 scoreboard=Табло
 showmap=Карта острова
 showworldmap=Карта світу
@@ -3337,7 +3344,7 @@ hideui=Приховати інтерфейс
 screenshot=Скріншот
 debuginfo=Інформація налагодження
 debughud=Панель налагодження 
-buffpotions=Використати бафф-зілля
+buffpotions=Використати усі зілля підсилення
 placetorch=Помістити факел
 nexthotbar=Наступна комірка гарячої панелі
 prevhotbar=Попередня комірка гарячої панелі
